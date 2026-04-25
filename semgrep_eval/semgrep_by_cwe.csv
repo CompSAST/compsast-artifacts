@@ -1,0 +1,101 @@
+tool,cwe_id,cwe_name,tp,fp,tn,fn,precision,recall,specificity,f1,total_vulnerable_points,total_safe_points,total_findings,unmatched_fp_findings,unknown_findings,out_of_scope_findings
+semgrep,CWE113,HTTP Response Splitting,0,162,5616,1998,0.0,0.0,0.971963,0.0,1998,5616,162,162,0,0
+semgrep,CWE114,Process Control,0,0,31,17,0.0,0.0,1.0,0.0,17,31,0,0,0,0
+semgrep,CWE117,Improper Output Neutralization for Logs,0,60,2080,740,0.0,0.0,0.971963,0.0,740,2080,60,60,0,0
+semgrep,CWE129,Improper Validation of Array Index,0,372,12896,4588,0.0,0.0,0.971963,0.0,4588,12896,372,372,0,0
+semgrep,CWE134,Externally Controlled Format String,0,84,2912,1036,0.0,0.0,0.971963,0.0,1036,2912,84,84,0,0
+semgrep,CWE15,External Control of System or Configuration Setting,0,40,1050,740,0.0,0.0,0.963303,0.0,740,1050,40,40,0,0
+semgrep,CWE190,Integer Overflow,0,594,20592,7326,0.0,0.0,0.971963,0.0,7326,20592,594,594,0,0
+semgrep,CWE191,Integer Underflow,0,396,13728,4884,0.0,0.0,0.971963,0.0,4884,13728,396,396,0,0
+semgrep,CWE193,An array index is 1 off from the max array index,0,0,93,51,0.0,0.0,1.0,0.0,51,93,0,0,0,0
+semgrep,CWE197,Numeric Truncation Error,0,540,14175,9990,0.0,0.0,0.963303,0.0,9990,14175,540,540,0,0
+semgrep,CWE209,Information exposure through error message,0,0,62,34,0.0,0.0,1.0,0.0,34,62,0,0,0,0
+semgrep,CWE226,Sensitive Information Uncleared Before Release,0,0,31,17,0.0,0.0,1.0,0.0,17,31,0,0,0,0
+semgrep,CWE23,Relative Path Traversal,0,40,1050,740,0.0,0.0,0.963303,0.0,740,1050,40,40,0,0
+semgrep,CWE248,Uncaught Exception,0,0,1,1,0.0,0.0,1.0,0.0,1,1,0,0,0,0
+semgrep,CWE252,Unchecked Return Value,0,0,31,17,0.0,0.0,1.0,0.0,17,31,0,0,0,0
+semgrep,CWE253,Incorrect Check of Function Return Value,0,0,31,17,0.0,0.0,1.0,0.0,17,31,0,0,0,0
+semgrep,CWE256,Unprotected Storage of Credentials,1,5,206,73,0.166667,0.013514,0.976303,0.025001,74,208,6,3,0,0
+semgrep,CWE259,Hard Coded Password,0,8,316,150,0.0,0.0,0.975309,0.0,150,316,8,8,0,0
+semgrep,CWE261,Weak Cryptography for Passwords,0,0,31,17,0.0,0.0,1.0,0.0,17,31,0,0,0,0
+semgrep,CWE284,Improper Access Control,0,0,62,34,0.0,0.0,1.0,0.0,34,62,0,0,0,0
+semgrep,CWE313,Cleartext storage in a File or on Disk,0,60,2080,740,0.0,0.0,0.971963,0.0,740,2080,60,60,0,0
+semgrep,CWE314,Cleartext storage in the registry,0,60,2080,740,0.0,0.0,0.971963,0.0,740,2080,60,60,0,0
+semgrep,CWE315,Cleartext storage of data in a cookie,0,6,208,74,0.0,0.0,0.971963,0.0,74,208,6,6,0,0
+semgrep,CWE319,Cleartext Transmission of Sensitive Information,0,24,1141,302,0.0,0.0,0.979399,0.0,302,1141,24,24,0,0
+semgrep,CWE321,Hard coded crypto key,0,4,105,74,0.0,0.0,0.963303,0.0,74,105,4,4,0,0
+semgrep,CWE325,Missing Required Cryptographic Step,0,0,62,34,0.0,0.0,1.0,0.0,34,62,0,0,0,0
+semgrep,CWE327,Use of Broken or Risky Cryptographic Algorithm,0,0,62,34,0.0,0.0,1.0,0.0,34,62,0,0,0,0
+semgrep,CWE328,Reversible One Way Hash,0,0,124,70,0.0,0.0,1.0,0.0,70,124,0,0,0,0
+semgrep,CWE329,Not using random IV with CBC Mode,0,0,31,17,0.0,0.0,1.0,0.0,17,31,0,0,0,0
+semgrep,CWE336,Same Seed in PRNG,0,0,31,17,0.0,0.0,1.0,0.0,17,31,0,0,0,0
+semgrep,CWE338,Use of Cryptographically Weak PRNG,0,0,31,17,0.0,0.0,1.0,0.0,17,31,0,0,0,0
+semgrep,CWE350,Reliance on Reverse DNS Resolution for Security Action,0,0,31,17,0.0,0.0,1.0,0.0,17,31,0,0,0,0
+semgrep,CWE36,Absolute Path Traversal,0,40,1050,740,0.0,0.0,0.963303,0.0,740,1050,40,40,0,0
+semgrep,CWE369,Divide by zero,4,248,8728,3104,0.015873,0.001287,0.972371,0.002381,3108,8736,252,240,0,0
+semgrep,CWE378,Explicitly set permissions on files,0,0,31,17,0.0,0.0,1.0,0.0,17,31,0,0,0,0
+semgrep,CWE379,File Creation in Insecure Directory,0,0,31,17,0.0,0.0,1.0,0.0,17,31,0,0,0,0
+semgrep,CWE390,Detection of Error Condition Without Action,0,0,62,34,0.0,0.0,1.0,0.0,34,62,0,0,0,0
+semgrep,CWE395,Use of NullPointerException Catch to Detect NULL Pointer Dereference,0,0,31,17,0.0,0.0,1.0,0.0,17,31,0,0,0,0
+semgrep,CWE396,An overly broad catch statement may cause errors in program execution if unexpected exceptions are thrown,0,0,31,17,0.0,0.0,1.0,0.0,17,31,0,0,0,0
+semgrep,CWE397,Throw Generic Exception,0,0,1,1,0.0,0.0,1.0,0.0,1,1,0,0,0,0
+semgrep,CWE398,One of the 7 Pernicious Kingdoms - Code Quality,0,0,248,136,0.0,0.0,1.0,0.0,136,248,0,0,0,0
+semgrep,CWE400,Uncontrolled Resource Consumption,0,198,7500,2454,0.0,0.0,0.974279,0.0,2454,7500,198,198,0,0
+semgrep,CWE404,Improper Resource Shutdown,0,0,3,3,0.0,0.0,1.0,0.0,3,3,0,0,0,0
+semgrep,CWE426,Untrusted Search Path,0,0,31,17,0.0,0.0,1.0,0.0,17,31,0,0,0,0
+semgrep,CWE427,Uncontrolled Search Path Element,0,40,1050,740,0.0,0.0,0.963303,0.0,740,1050,40,40,0,0
+semgrep,CWE440,Expected Behavior Violation,0,0,31,17,0.0,0.0,1.0,0.0,17,31,0,0,0,0
+semgrep,CWE459,Incomplete Cleanup,0,0,31,17,0.0,0.0,1.0,0.0,17,31,0,0,0,0
+semgrep,CWE470,Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection'),0,36,945,666,0.0,0.0,0.963303,0.0,666,945,36,36,0,0
+semgrep,CWE476,Null Pointer Dereference,0,24,917,343,0.0,0.0,0.974495,0.0,343,917,24,24,0,0
+semgrep,CWE477,Use of Obsolete Functions,0,0,93,51,0.0,0.0,1.0,0.0,51,93,0,0,0,0
+semgrep,CWE478,Missing Default Case in Switch,0,0,31,17,0.0,0.0,1.0,0.0,17,31,0,0,0,0
+semgrep,CWE481,Assigning Instead of Comparing,0,0,31,17,0.0,0.0,1.0,0.0,17,31,0,0,0,0
+semgrep,CWE482,Comparing Instead of Assigning,0,0,31,17,0.0,0.0,1.0,0.0,17,31,0,0,0,0
+semgrep,CWE483,Incorrect Block Delimitation,0,0,33,19,0.0,0.0,1.0,0.0,19,33,0,0,0,0
+semgrep,CWE486,Compare Classes by Name,0,0,31,17,0.0,0.0,1.0,0.0,17,31,0,0,0,0
+semgrep,CWE506,Embedded Malicious Code,0,0,63,83,0.0,0.0,1.0,0.0,83,63,0,0,0,0
+semgrep,CWE510,Trapdoor,0,0,62,66,0.0,0.0,1.0,0.0,66,62,0,0,0,0
+semgrep,CWE511,Logic Time Bomb,0,0,93,51,0.0,0.0,1.0,0.0,51,93,0,0,0,0
+semgrep,CWE523,Unprotected Transport of Credentials,0,0,31,17,0.0,0.0,1.0,0.0,17,31,0,0,0,0
+semgrep,CWE526,Information Exposure Through Environment Variables,0,0,31,17,0.0,0.0,1.0,0.0,17,31,0,0,0,0
+semgrep,CWE534,Inclusion of Sensitive Information in Log Files,0,0,31,17,0.0,0.0,1.0,0.0,17,31,0,0,0,0
+semgrep,CWE535,Information Exposure through Shell Error,0,0,31,17,0.0,0.0,1.0,0.0,17,31,0,0,0,0
+semgrep,CWE539,Information Exposure Through Persistent Cookie,0,0,31,17,0.0,0.0,1.0,0.0,17,31,0,0,0,0
+semgrep,CWE546,Suspicious Comment,0,0,155,85,0.0,0.0,1.0,0.0,85,155,0,0,0,0
+semgrep,CWE549,Passwords should be masked during entry to prevent others from stealing them,0,0,31,17,0.0,0.0,1.0,0.0,17,31,0,0,0,0
+semgrep,CWE563,Assignment to Variable without Use,0,0,1002,420,0.0,0.0,1.0,0.0,420,1002,0,0,0,0
+semgrep,CWE566,Authorization Bypass through SQL primary,0,4,105,74,0.0,0.0,0.963303,0.0,74,105,4,4,0,0
+semgrep,CWE570,Expression Always False,0,0,16,16,0.0,0.0,1.0,0.0,16,16,0,0,0,0
+semgrep,CWE571,Expression Always True,0,0,16,16,0.0,0.0,1.0,0.0,16,16,0,0,0,0
+semgrep,CWE598,Information Exposure Through Query Strings in GET Request,0,0,31,17,0.0,0.0,1.0,0.0,17,31,0,0,0,0
+semgrep,CWE601,Open Redirect,0,36,945,666,0.0,0.0,0.963303,0.0,666,945,36,36,0,0
+semgrep,CWE605,Multiple binds to the same port,0,0,31,17,0.0,0.0,1.0,0.0,17,31,0,0,0,0
+semgrep,CWE606,Unchecked Input for Loop Condition,0,60,2080,740,0.0,0.0,0.971963,0.0,740,2080,60,60,0,0
+semgrep,CWE613,Insufficient Session Expiration,0,0,31,17,0.0,0.0,1.0,0.0,17,31,0,0,0,0
+semgrep,CWE614,Sensitive Cookie Without Secure,0,0,31,17,0.0,0.0,1.0,0.0,17,31,0,0,0,0
+semgrep,CWE615,Information Exposure by Comment,0,0,31,17,0.0,0.0,1.0,0.0,17,31,0,0,0,0
+semgrep,CWE617,Assertion is reachable,0,0,62,34,0.0,0.0,1.0,0.0,34,62,0,0,0,0
+semgrep,CWE643,Xpath Injection,0,60,2080,740,0.0,0.0,0.971963,0.0,740,2080,60,60,0,0
+semgrep,CWE667,Improper Locking,0,0,1,1,0.0,0.0,1.0,0.0,1,1,0,0,0,0
+semgrep,CWE675,Duplicate Operations on Resource,0,12,416,148,0.0,0.0,0.971963,0.0,148,416,12,12,0,0
+semgrep,CWE681,Incorrect Conversion Between Numeric Types,0,0,93,51,0.0,0.0,1.0,0.0,51,93,0,0,0,0
+semgrep,CWE690,"Unchecked return value is null, leading to a null pointer dereference.",0,24,832,296,0.0,0.0,0.971963,0.0,296,832,24,24,0,0
+semgrep,CWE698,Execution After Redirect (EAR),0,0,31,17,0.0,0.0,1.0,0.0,17,31,0,0,0,0
+semgrep,CWE759,Use of one-way hash with no salt,0,0,31,17,0.0,0.0,1.0,0.0,17,31,0,0,0,0
+semgrep,CWE760,Use of one-way hash with a predictable salt,0,0,31,17,0.0,0.0,1.0,0.0,17,31,0,0,0,0
+semgrep,CWE764,Multiple Locks,0,0,1,1,0.0,0.0,1.0,0.0,1,1,0,0,0,0
+semgrep,CWE765,Multiple Unlocks,0,0,1,1,0.0,0.0,1.0,0.0,1,1,0,0,0,0
+semgrep,CWE772,Missing Release of Resource,0,0,2,2,0.0,0.0,1.0,0.0,2,2,0,0,0,0
+semgrep,CWE775,Missing Release of File Descriptor or Handle,0,0,1,1,0.0,0.0,1.0,0.0,1,1,0,0,0,0
+semgrep,CWE78,OS Command Injection,0,40,1050,740,0.0,0.0,0.963303,0.0,740,1050,40,40,0,0
+semgrep,CWE789,Uncontrolled Memory Allocation,0,144,3811,2681,0.0,0.0,0.96359,0.0,2681,3811,144,144,0,0
+semgrep,CWE80,Cross Site Scripting (XSS),0,72,1890,1332,0.0,0.0,0.963303,0.0,1332,1890,72,72,0,0
+semgrep,CWE81,Cross Site Scripting (XSS) in Error Message,0,36,945,666,0.0,0.0,0.963303,0.0,666,945,36,36,0,0
+semgrep,CWE83,Cross Site Scripting (XSS) in attributes; Examples(replace QUOTE with an actual double quote): ?img_loc=http://www.google.comQUOTE%20onerror=QUOTEalert(1) and ?img_loc=http://www.google.comQUOTE%20onerror=QUOTEjavascript:alert(1),0,36,945,666,0.0,0.0,0.963303,0.0,666,945,36,36,0,0
+semgrep,CWE832,Unlock Not Locked,0,0,1,1,0.0,0.0,1.0,0.0,1,1,0,0,0,0
+semgrep,CWE833,Deadlock,0,0,1,2,0.0,0.0,1.0,0.0,2,1,0,0,0,0
+semgrep,CWE835,Infinite Loop,0,0,7,6,0.0,0.0,1.0,0.0,6,7,0,0,0,0
+semgrep,CWE89,SQL Injection,666,1008,4770,1332,0.397849,0.333333,0.825545,0.362745,1998,5616,1674,162,0,0
+semgrep,CWE90,LDAP Injection,0,40,1050,740,0.0,0.0,0.963303,0.0,740,1050,40,40,0,0
+semgrep,CWE94,Improper Control of Generation of Code,0,60,2080,740,0.0,0.0,0.971963,0.0,740,2080,60,60,0,0

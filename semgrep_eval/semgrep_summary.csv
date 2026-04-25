@@ -1,0 +1,2 @@
+tool,tp,fp,tn,fn,precision,recall,specificity,f1,total_vulnerable_points,total_safe_points,total_findings,unmatched_fp_findings,unknown_findings,out_of_scope_findings
+semgrep,671,4673,126961,55720,0.125561,0.011899,0.9645,0.021738,56391,127817,5344,3817,0,0
