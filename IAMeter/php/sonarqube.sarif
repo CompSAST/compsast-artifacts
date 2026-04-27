@@ -1,0 +1,318 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://json.schemastore.org/sarif-2.1.0.json",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "SonarQube",
+          "informationUri": "https://www.sonarsource.com/",
+          "rules": []
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true,
+          "endTimeUtc": "2026-04-27T14:49:50Z"
+        }
+      ],
+      "results": [
+        {
+          "ruleId": "php:S1764",
+          "level": "warning",
+          "message": {
+            "text": "Identical sub-expressions on both sides of operator \"==\""
+          },
+          "properties": {
+            "sonar.issueKey": "3ef61385-1c97-4307-9037-aa9682dbd296",
+            "sonar.severity": "MAJOR",
+            "sonar.type": "BUG",
+            "sonar.status": "OPEN",
+            "sonar.effort": "2min"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "03_UnreachableCode.php"
+                },
+                "region": {
+                  "startLine": 8,
+                  "endLine": 8,
+                  "startColumn": 13,
+                  "endColumn": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "php:S5797",
+          "level": "error",
+          "message": {
+            "text": "Replace this expression; used as a condition it will always be constant."
+          },
+          "properties": {
+            "sonar.issueKey": "4d558ae6-c040-48fe-be73-fd3a635c6126",
+            "sonar.severity": "CRITICAL",
+            "sonar.type": "CODE_SMELL",
+            "sonar.status": "OPEN",
+            "sonar.effort": "2min"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "03_UnreachableCode.php"
+                },
+                "region": {
+                  "startLine": 8,
+                  "endLine": 8,
+                  "startColumn": 5,
+                  "endColumn": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "php:S113",
+          "level": "note",
+          "message": {
+            "text": "Add a new line at the end of this file."
+          },
+          "properties": {
+            "sonar.issueKey": "024c118c-5997-4dd0-aa12-9e39468c7447",
+            "sonar.severity": "MINOR",
+            "sonar.type": "CODE_SMELL",
+            "sonar.status": "OPEN",
+            "sonar.effort": "1min"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "05_CustomFilteringFunctions.php"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "php:S113",
+          "level": "note",
+          "message": {
+            "text": "Add a new line at the end of this file."
+          },
+          "properties": {
+            "sonar.issueKey": "13ea6cb9-8fd5-4165-8d57-c8b7fa1393f4",
+            "sonar.severity": "MINOR",
+            "sonar.type": "CODE_SMELL",
+            "sonar.status": "OPEN",
+            "sonar.effort": "1min"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "06_Base64Semantics.php"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "php:S5797",
+          "level": "error",
+          "message": {
+            "text": "Replace this expression; used as a condition it will always be constant."
+          },
+          "properties": {
+            "sonar.issueKey": "53274cfa-a098-47b9-9b52-79aa505c8437",
+            "sonar.severity": "CRITICAL",
+            "sonar.type": "CODE_SMELL",
+            "sonar.status": "OPEN",
+            "sonar.effort": "2min"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "06_Base64Semantics.php"
+                },
+                "region": {
+                  "startLine": 8,
+                  "endLine": 8,
+                  "startColumn": 5,
+                  "endColumn": 21
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "php:S1764",
+          "level": "warning",
+          "message": {
+            "text": "Identical sub-expressions on both sides of operator \"==\""
+          },
+          "properties": {
+            "sonar.issueKey": "67563584-e80d-49af-837b-8bd92ea262ec",
+            "sonar.severity": "MAJOR",
+            "sonar.type": "BUG",
+            "sonar.status": "OPEN",
+            "sonar.effort": "2min"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "06_Base64Semantics.php"
+                },
+                "region": {
+                  "startLine": 8,
+                  "endLine": 8,
+                  "startColumn": 15,
+                  "endColumn": 21
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "php:S113",
+          "level": "note",
+          "message": {
+            "text": "Add a new line at the end of this file."
+          },
+          "properties": {
+            "sonar.issueKey": "e8235c7a-b869-4ea2-9573-da539baa750a",
+            "sonar.severity": "MINOR",
+            "sonar.type": "CODE_SMELL",
+            "sonar.status": "OPEN",
+            "sonar.effort": "1min"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "07_Loops.php"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "php:S5797",
+          "level": "error",
+          "message": {
+            "text": "Replace this expression; used as a condition it will always be constant."
+          },
+          "properties": {
+            "sonar.issueKey": "a1f0c313-6c64-48e0-ac55-448fa8f14977",
+            "sonar.severity": "CRITICAL",
+            "sonar.type": "CODE_SMELL",
+            "sonar.status": "OPEN",
+            "sonar.effort": "2min"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "08_StringSemantics.php"
+                },
+                "region": {
+                  "startLine": 14,
+                  "endLine": 14,
+                  "startColumn": 5,
+                  "endColumn": 21
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "php:S1764",
+          "level": "warning",
+          "message": {
+            "text": "Identical sub-expressions on both sides of operator \"==\""
+          },
+          "properties": {
+            "sonar.issueKey": "be6b6239-cb2a-46bd-a26b-274c586391fc",
+            "sonar.severity": "MAJOR",
+            "sonar.type": "BUG",
+            "sonar.status": "OPEN",
+            "sonar.effort": "2min"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "08_StringSemantics.php"
+                },
+                "region": {
+                  "startLine": 14,
+                  "endLine": 14,
+                  "startColumn": 15,
+                  "endColumn": 21
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "php:S113",
+          "level": "note",
+          "message": {
+            "text": "Add a new line at the end of this file."
+          },
+          "properties": {
+            "sonar.issueKey": "6041227d-d2f0-41cc-ae6e-fc50a43f4e44",
+            "sonar.severity": "MINOR",
+            "sonar.type": "CODE_SMELL",
+            "sonar.status": "OPEN",
+            "sonar.effort": "1min"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "02_BrokenCode.php"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "php:S5361",
+          "level": "error",
+          "message": {
+            "text": "Replace this \"preg_replace()\" call by a \"str_replace()\" function call."
+          },
+          "properties": {
+            "sonar.issueKey": "1afb066a-5e48-41dd-8609-4e25a2630adc",
+            "sonar.severity": "CRITICAL",
+            "sonar.type": "CODE_SMELL",
+            "sonar.status": "OPEN",
+            "sonar.effort": "2min"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "08_StringSemantics.php"
+                },
+                "region": {
+                  "startLine": 32,
+                  "endLine": 32,
+                  "startColumn": 12,
+                  "endColumn": 24
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json.schemastore.org/sarif-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "Joern",
+          "semanticVersion": "joern-scan",
+          "rules": [
+            {
+              "id": "joern/empty",
+              "shortDescription": {
+                "text": "No Result: lines in joern-scan log (0 query matches in text)"
+              }
+            }
+          ]
+        }
+      },
+      "results": []
+    }
+  ]
+}
