@@ -1,0 +1,78 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://docs.oasis-open.org/sarif/sarif/v2.1.0/errata01/os/schemas/sarif-schema-2.1.0.json",
+  "runs": [
+    {
+      "invocations": [],
+      "tool": {
+        "driver": {
+          "name": "PVS-Studio",
+          "semanticVersion": "7.42.105112.761",
+          "informationUri": "https://pvs-studio.com",
+          "rules": [
+            {
+              "id": "V6007",
+              "name": "RuleV6007",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v6007/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v6007/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-570"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "V6007",
+          "message": {
+            "text": "Expression 'cond1 == null' is always false."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Users/linh/Innopolis/ssd-project/IAMeter_Java/src/main/java/iameter/_03_UnreachableCode.java"
+                },
+                "region": {
+                  "startLine": 24,
+                  "endLine": 24,
+                  "startColumn": 13,
+                  "endColumn": 25
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V6007",
+          "message": {
+            "text": "Expression '\"true\".equals(sb.toString())' is always false."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Users/linh/Innopolis/ssd-project/IAMeter_Java/src/main/java/iameter/_08_StringBuilderSemantics.java"
+                },
+                "region": {
+                  "startLine": 24,
+                  "endLine": 24,
+                  "startColumn": 13,
+                  "endColumn": 40
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
