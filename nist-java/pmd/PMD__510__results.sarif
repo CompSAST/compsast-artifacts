@@ -1,0 +1,768 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "PMD",
+          "version": "6.55.0",
+          "informationUri": "https://pmd.github.io/pmd/",
+          "rules": [
+            {
+              "id": "UnconditionalIfStatement",
+              "shortDescription": {
+                "text": "Do not use if statements that are always true or always false"
+              },
+              "fullDescription": {
+                "text": "\nDo not use \"if\" statements whose conditionals are always true or always false.\n        "
+              },
+              "helpUri": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#unconditionalifstatement",
+              "help": {
+                "text": "\nDo not use \"if\" statements whose conditionals are always true or always false.\n        "
+              },
+              "properties": {
+                "ruleset": "Error Prone",
+                "priority": 3,
+                "tags": [
+                  "Error Prone"
+                ]
+              }
+            },
+            {
+              "id": "AvoidBranchingStatementAsLastInLoop",
+              "shortDescription": {
+                "text": "Avoid using a branching statement as the last in a loop."
+              },
+              "fullDescription": {
+                "text": "\nUsing a branching statement as the last part of a loop may be a bug, and/or is confusing.\nEnsure that the usage is not a bug, or consider using another approach.\n        "
+              },
+              "helpUri": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#avoidbranchingstatementaslastinloop",
+              "help": {
+                "text": "\nUsing a branching statement as the last part of a loop may be a bug, and/or is confusing.\nEnsure that the usage is not a bug, or consider using another approach.\n        "
+              },
+              "properties": {
+                "ruleset": "Error Prone",
+                "priority": 2,
+                "tags": [
+                  "Error Prone"
+                ]
+              }
+            },
+            {
+              "id": "AvoidUsingHardCodedIP",
+              "shortDescription": {
+                "text": "Do not hard code the IP address "
+              },
+              "fullDescription": {
+                "text": "\nApplication with hard-coded IP addresses can become impossible to deploy in some cases.\nExternalizing IP adresses is preferable.\n        "
+              },
+              "helpUri": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#avoidusinghardcodedip",
+              "help": {
+                "text": "\nApplication with hard-coded IP addresses can become impossible to deploy in some cases.\nExternalizing IP adresses is preferable.\n        "
+              },
+              "properties": {
+                "ruleset": "Best Practices",
+                "priority": 3,
+                "tags": [
+                  "Best Practices"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_02.java"
+                },
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 13,
+                  "endLine": 32,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_02.java"
+                },
+                "region": {
+                  "startLine": 103,
+                  "startColumn": 13,
+                  "endLine": 103,
+                  "endColumn": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_02.java"
+                },
+                "region": {
+                  "startLine": 175,
+                  "startColumn": 13,
+                  "endLine": 175,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_16.java"
+                },
+                "region": {
+                  "startLine": 97,
+                  "startColumn": 13,
+                  "endLine": 97,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_16.java"
+                },
+                "region": {
+                  "startLine": 161,
+                  "startColumn": 13,
+                  "endLine": 161,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 2,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_01.java"
+                },
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 65,
+                  "endLine": 44,
+                  "endColumn": 80
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_02.java"
+                },
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 13,
+                  "endLine": 32,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 2,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_02.java"
+                },
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 69,
+                  "endLine": 43,
+                  "endColumn": 84
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_02.java"
+                },
+                "region": {
+                  "startLine": 102,
+                  "startColumn": 13,
+                  "endLine": 102,
+                  "endColumn": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_02.java"
+                },
+                "region": {
+                  "startLine": 174,
+                  "startColumn": 13,
+                  "endLine": 174,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 2,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_03.java"
+                },
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 69,
+                  "endLine": 43,
+                  "endColumn": 84
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 2,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_04.java"
+                },
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 69,
+                  "endLine": 50,
+                  "endColumn": 84
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 2,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_05.java"
+                },
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 69,
+                  "endLine": 50,
+                  "endColumn": 84
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 2,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_06.java"
+                },
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 69,
+                  "endLine": 49,
+                  "endColumn": 84
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 2,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_07.java"
+                },
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 69,
+                  "endLine": 49,
+                  "endColumn": 84
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 2,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_08.java"
+                },
+                "region": {
+                  "startLine": 57,
+                  "startColumn": 69,
+                  "endLine": 57,
+                  "endColumn": 84
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 2,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_09.java"
+                },
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 69,
+                  "endLine": 43,
+                  "endColumn": 84
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 2,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_10.java"
+                },
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 69,
+                  "endLine": 43,
+                  "endColumn": 84
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 2,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_11.java"
+                },
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 69,
+                  "endLine": 43,
+                  "endColumn": 84
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 2,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_12.java"
+                },
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 69,
+                  "endLine": 43,
+                  "endColumn": 84
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 2,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_13.java"
+                },
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 69,
+                  "endLine": 43,
+                  "endColumn": 84
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 2,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_14.java"
+                },
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 69,
+                  "endLine": 43,
+                  "endColumn": 84
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 2,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_15.java"
+                },
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 69,
+                  "endLine": 44,
+                  "endColumn": 84
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 2,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_16.java"
+                },
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 69,
+                  "endLine": 43,
+                  "endColumn": 84
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_16.java"
+                },
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 13,
+                  "endLine": 96,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_16.java"
+                },
+                "region": {
+                  "startLine": 160,
+                  "startColumn": 13,
+                  "endLine": 160,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 2,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_17.java"
+                },
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 69,
+                  "endLine": 43,
+                  "endColumn": 84
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_02.java"
+                },
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 13,
+                  "endLine": 29,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_16.java"
+                },
+                "region": {
+                  "startLine": 56,
+                  "startColumn": 13,
+                  "endLine": 56,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_02.java"
+                },
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 13,
+                  "endLine": 28,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_16.java"
+                },
+                "region": {
+                  "startLine": 71,
+                  "startColumn": 13,
+                  "endLine": 71,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "invocations": [
+        {
+          "executionSuccessful": true,
+          "toolConfigurationNotifications": [],
+          "toolExecutionNotifications": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "PMD",
+          "version": "6.55.0",
+          "informationUri": "https://pmd.github.io/pmd/",
+          "rules": [
+            {
+              "id": "DoubleCheckedLocking",
+              "shortDescription": {
+                "text": "Double checked locking is not thread safe in Java."
+              },
+              "fullDescription": {
+                "text": "\nPartially created objects can be returned by the Double Checked Locking pattern when used in Java.\nAn optimizing JRE may assign a reference to the baz variable before it calls the constructor of the object the\nreference points to.\n\nNote: With Java 5, you can make Double checked locking work, if you declare the variable to be `volatile`.\n\nFor more details refer to: <http://www.javaworld.com/javaworld/jw-02-2001/jw-0209-double.html>\nor <http://www.cs.umd.edu/~pugh/java/memoryModel/DoubleCheckedLocking.html>\n        "
+              },
+              "helpUri": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_multithreading.html#doublecheckedlocking",
+              "help": {
+                "text": "\nPartially created objects can be returned by the Double Checked Locking pattern when used in Java.\nAn optimizing JRE may assign a reference to the baz variable before it calls the constructor of the object the\nreference points to.\n\nNote: With Java 5, you can make Double checked locking work, if you declare the variable to be `volatile`.\n\nFor more details refer to: <http://www.javaworld.com/javaworld/jw-02-2001/jw-0209-double.html>\nor <http://www.cs.umd.edu/~pugh/java/memoryModel/DoubleCheckedLocking.html>\n        "
+              },
+              "properties": {
+                "ruleset": "Multithreading",
+                "priority": 1,
+                "tags": [
+                  "Multithreading"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "DoubleCheckedLocking",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Double checked locking is not thread safe in Java."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE609_Double_Checked_Locking/CWE609_Double_Checked_Locking__Servlet_01.java"
+                },
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 19,
+                  "endLine": 37,
+                  "endColumn": 5
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "DoubleCheckedLocking",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Double checked locking is not thread safe in Java."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE609_Double_Checked_Locking/CWE609_Double_Checked_Locking__Thread_01.java"
+                },
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 19,
+                  "endLine": 33,
+                  "endColumn": 5
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "invocations": [
+        {
+          "executionSuccessful": true,
+          "toolConfigurationNotifications": [],
+          "toolExecutionNotifications": []
+        }
+      ]
+    }
+  ]
+}

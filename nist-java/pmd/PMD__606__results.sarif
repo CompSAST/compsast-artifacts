@@ -1,0 +1,4290 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "PMD",
+          "version": "6.55.0",
+          "informationUri": "https://pmd.github.io/pmd/",
+          "rules": [
+            {
+              "id": "UnconditionalIfStatement",
+              "shortDescription": {
+                "text": "Do not use if statements that are always true or always false"
+              },
+              "fullDescription": {
+                "text": "\nDo not use \"if\" statements whose conditionals are always true or always false.\n        "
+              },
+              "helpUri": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#unconditionalifstatement",
+              "help": {
+                "text": "\nDo not use \"if\" statements whose conditionals are always true or always false.\n        "
+              },
+              "properties": {
+                "ruleset": "Error Prone",
+                "priority": 3,
+                "tags": [
+                  "Error Prone"
+                ]
+              }
+            },
+            {
+              "id": "AvoidBranchingStatementAsLastInLoop",
+              "shortDescription": {
+                "text": "Avoid using a branching statement as the last in a loop."
+              },
+              "fullDescription": {
+                "text": "\nUsing a branching statement as the last part of a loop may be a bug, and/or is confusing.\nEnsure that the usage is not a bug, or consider using another approach.\n        "
+              },
+              "helpUri": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#avoidbranchingstatementaslastinloop",
+              "help": {
+                "text": "\nUsing a branching statement as the last part of a loop may be a bug, and/or is confusing.\nEnsure that the usage is not a bug, or consider using another approach.\n        "
+              },
+              "properties": {
+                "ruleset": "Error Prone",
+                "priority": 2,
+                "tags": [
+                  "Error Prone"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__Environment_02.java"
+                },
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 13,
+                  "endLine": 29,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__Environment_02.java"
+                },
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 13,
+                  "endLine": 42,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__Environment_02.java"
+                },
+                "region": {
+                  "startLine": 66,
+                  "startColumn": 13,
+                  "endLine": 66,
+                  "endColumn": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__Environment_02.java"
+                },
+                "region": {
+                  "startLine": 80,
+                  "startColumn": 13,
+                  "endLine": 80,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__Environment_02.java"
+                },
+                "region": {
+                  "startLine": 104,
+                  "startColumn": 13,
+                  "endLine": 104,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__Environment_02.java"
+                },
+                "region": {
+                  "startLine": 116,
+                  "startColumn": 13,
+                  "endLine": 116,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__Environment_02.java"
+                },
+                "region": {
+                  "startLine": 140,
+                  "startColumn": 13,
+                  "endLine": 140,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__Environment_02.java"
+                },
+                "region": {
+                  "startLine": 153,
+                  "startColumn": 13,
+                  "endLine": 153,
+                  "endColumn": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__Environment_02.java"
+                },
+                "region": {
+                  "startLine": 188,
+                  "startColumn": 13,
+                  "endLine": 188,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__Environment_02.java"
+                },
+                "region": {
+                  "startLine": 201,
+                  "startColumn": 13,
+                  "endLine": 201,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__Environment_16.java"
+                },
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 13,
+                  "endLine": 35,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__Environment_16.java"
+                },
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 13,
+                  "endLine": 55,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__Environment_16.java"
+                },
+                "region": {
+                  "startLine": 68,
+                  "startColumn": 13,
+                  "endLine": 68,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__Environment_16.java"
+                },
+                "region": {
+                  "startLine": 88,
+                  "startColumn": 13,
+                  "endLine": 88,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__Environment_16.java"
+                },
+                "region": {
+                  "startLine": 103,
+                  "startColumn": 13,
+                  "endLine": 103,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__Environment_16.java"
+                },
+                "region": {
+                  "startLine": 126,
+                  "startColumn": 13,
+                  "endLine": 126,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__File_02.java"
+                },
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 13,
+                  "endLine": 37,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__File_02.java"
+                },
+                "region": {
+                  "startLine": 108,
+                  "startColumn": 13,
+                  "endLine": 108,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__File_02.java"
+                },
+                "region": {
+                  "startLine": 132,
+                  "startColumn": 13,
+                  "endLine": 132,
+                  "endColumn": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__File_02.java"
+                },
+                "region": {
+                  "startLine": 146,
+                  "startColumn": 13,
+                  "endLine": 146,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__File_02.java"
+                },
+                "region": {
+                  "startLine": 170,
+                  "startColumn": 13,
+                  "endLine": 170,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__File_02.java"
+                },
+                "region": {
+                  "startLine": 182,
+                  "startColumn": 13,
+                  "endLine": 182,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__File_02.java"
+                },
+                "region": {
+                  "startLine": 206,
+                  "startColumn": 13,
+                  "endLine": 206,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__File_02.java"
+                },
+                "region": {
+                  "startLine": 277,
+                  "startColumn": 13,
+                  "endLine": 277,
+                  "endColumn": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__File_02.java"
+                },
+                "region": {
+                  "startLine": 312,
+                  "startColumn": 13,
+                  "endLine": 312,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__File_02.java"
+                },
+                "region": {
+                  "startLine": 383,
+                  "startColumn": 13,
+                  "endLine": 383,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__File_16.java"
+                },
+                "region": {
+                  "startLine": 101,
+                  "startColumn": 13,
+                  "endLine": 101,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__File_16.java"
+                },
+                "region": {
+                  "startLine": 121,
+                  "startColumn": 13,
+                  "endLine": 121,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__File_16.java"
+                },
+                "region": {
+                  "startLine": 134,
+                  "startColumn": 13,
+                  "endLine": 134,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__File_16.java"
+                },
+                "region": {
+                  "startLine": 154,
+                  "startColumn": 13,
+                  "endLine": 154,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__File_16.java"
+                },
+                "region": {
+                  "startLine": 227,
+                  "startColumn": 13,
+                  "endLine": 227,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__File_16.java"
+                },
+                "region": {
+                  "startLine": 250,
+                  "startColumn": 13,
+                  "endLine": 250,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__PropertiesFile_02.java"
+                },
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 13,
+                  "endLine": 36,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__PropertiesFile_02.java"
+                },
+                "region": {
+                  "startLine": 78,
+                  "startColumn": 13,
+                  "endLine": 78,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__PropertiesFile_02.java"
+                },
+                "region": {
+                  "startLine": 102,
+                  "startColumn": 13,
+                  "endLine": 102,
+                  "endColumn": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__PropertiesFile_02.java"
+                },
+                "region": {
+                  "startLine": 116,
+                  "startColumn": 13,
+                  "endLine": 116,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__PropertiesFile_02.java"
+                },
+                "region": {
+                  "startLine": 140,
+                  "startColumn": 13,
+                  "endLine": 140,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__PropertiesFile_02.java"
+                },
+                "region": {
+                  "startLine": 152,
+                  "startColumn": 13,
+                  "endLine": 152,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__PropertiesFile_02.java"
+                },
+                "region": {
+                  "startLine": 176,
+                  "startColumn": 13,
+                  "endLine": 176,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__PropertiesFile_02.java"
+                },
+                "region": {
+                  "startLine": 218,
+                  "startColumn": 13,
+                  "endLine": 218,
+                  "endColumn": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__PropertiesFile_02.java"
+                },
+                "region": {
+                  "startLine": 253,
+                  "startColumn": 13,
+                  "endLine": 253,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__PropertiesFile_02.java"
+                },
+                "region": {
+                  "startLine": 295,
+                  "startColumn": 13,
+                  "endLine": 295,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__PropertiesFile_16.java"
+                },
+                "region": {
+                  "startLine": 71,
+                  "startColumn": 13,
+                  "endLine": 71,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__PropertiesFile_16.java"
+                },
+                "region": {
+                  "startLine": 91,
+                  "startColumn": 13,
+                  "endLine": 91,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__PropertiesFile_16.java"
+                },
+                "region": {
+                  "startLine": 104,
+                  "startColumn": 13,
+                  "endLine": 104,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__PropertiesFile_16.java"
+                },
+                "region": {
+                  "startLine": 124,
+                  "startColumn": 13,
+                  "endLine": 124,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__PropertiesFile_16.java"
+                },
+                "region": {
+                  "startLine": 168,
+                  "startColumn": 13,
+                  "endLine": 168,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__PropertiesFile_16.java"
+                },
+                "region": {
+                  "startLine": 191,
+                  "startColumn": 13,
+                  "endLine": 191,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__Property_02.java"
+                },
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 13,
+                  "endLine": 29,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__Property_02.java"
+                },
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 13,
+                  "endLine": 42,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__Property_02.java"
+                },
+                "region": {
+                  "startLine": 66,
+                  "startColumn": 13,
+                  "endLine": 66,
+                  "endColumn": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__Property_02.java"
+                },
+                "region": {
+                  "startLine": 80,
+                  "startColumn": 13,
+                  "endLine": 80,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__Property_02.java"
+                },
+                "region": {
+                  "startLine": 104,
+                  "startColumn": 13,
+                  "endLine": 104,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__Property_02.java"
+                },
+                "region": {
+                  "startLine": 116,
+                  "startColumn": 13,
+                  "endLine": 116,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__Property_02.java"
+                },
+                "region": {
+                  "startLine": 140,
+                  "startColumn": 13,
+                  "endLine": 140,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__Property_02.java"
+                },
+                "region": {
+                  "startLine": 153,
+                  "startColumn": 13,
+                  "endLine": 153,
+                  "endColumn": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__Property_02.java"
+                },
+                "region": {
+                  "startLine": 188,
+                  "startColumn": 13,
+                  "endLine": 188,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__Property_02.java"
+                },
+                "region": {
+                  "startLine": 201,
+                  "startColumn": 13,
+                  "endLine": 201,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__Property_16.java"
+                },
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 13,
+                  "endLine": 35,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__Property_16.java"
+                },
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 13,
+                  "endLine": 55,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__Property_16.java"
+                },
+                "region": {
+                  "startLine": 68,
+                  "startColumn": 13,
+                  "endLine": 68,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__Property_16.java"
+                },
+                "region": {
+                  "startLine": 88,
+                  "startColumn": 13,
+                  "endLine": 88,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__Property_16.java"
+                },
+                "region": {
+                  "startLine": 103,
+                  "startColumn": 13,
+                  "endLine": 103,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__Property_16.java"
+                },
+                "region": {
+                  "startLine": 126,
+                  "startColumn": 13,
+                  "endLine": 126,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__URLConnection_02.java"
+                },
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 13,
+                  "endLine": 37,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__URLConnection_02.java"
+                },
+                "region": {
+                  "startLine": 94,
+                  "startColumn": 13,
+                  "endLine": 94,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__URLConnection_02.java"
+                },
+                "region": {
+                  "startLine": 118,
+                  "startColumn": 13,
+                  "endLine": 118,
+                  "endColumn": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__URLConnection_02.java"
+                },
+                "region": {
+                  "startLine": 132,
+                  "startColumn": 13,
+                  "endLine": 132,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__URLConnection_02.java"
+                },
+                "region": {
+                  "startLine": 156,
+                  "startColumn": 13,
+                  "endLine": 156,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__URLConnection_02.java"
+                },
+                "region": {
+                  "startLine": 168,
+                  "startColumn": 13,
+                  "endLine": 168,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__URLConnection_02.java"
+                },
+                "region": {
+                  "startLine": 192,
+                  "startColumn": 13,
+                  "endLine": 192,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__URLConnection_02.java"
+                },
+                "region": {
+                  "startLine": 249,
+                  "startColumn": 13,
+                  "endLine": 249,
+                  "endColumn": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__URLConnection_02.java"
+                },
+                "region": {
+                  "startLine": 284,
+                  "startColumn": 13,
+                  "endLine": 284,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__URLConnection_02.java"
+                },
+                "region": {
+                  "startLine": 341,
+                  "startColumn": 13,
+                  "endLine": 341,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__URLConnection_16.java"
+                },
+                "region": {
+                  "startLine": 87,
+                  "startColumn": 13,
+                  "endLine": 87,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__URLConnection_16.java"
+                },
+                "region": {
+                  "startLine": 107,
+                  "startColumn": 13,
+                  "endLine": 107,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__URLConnection_16.java"
+                },
+                "region": {
+                  "startLine": 120,
+                  "startColumn": 13,
+                  "endLine": 120,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__URLConnection_16.java"
+                },
+                "region": {
+                  "startLine": 140,
+                  "startColumn": 13,
+                  "endLine": 140,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__URLConnection_16.java"
+                },
+                "region": {
+                  "startLine": 199,
+                  "startColumn": 13,
+                  "endLine": 199,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__URLConnection_16.java"
+                },
+                "region": {
+                  "startLine": 222,
+                  "startColumn": 13,
+                  "endLine": 222,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__connect_tcp_02.java"
+                },
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 13,
+                  "endLine": 36,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__connect_tcp_02.java"
+                },
+                "region": {
+                  "startLine": 107,
+                  "startColumn": 13,
+                  "endLine": 107,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__connect_tcp_02.java"
+                },
+                "region": {
+                  "startLine": 131,
+                  "startColumn": 13,
+                  "endLine": 131,
+                  "endColumn": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__connect_tcp_02.java"
+                },
+                "region": {
+                  "startLine": 145,
+                  "startColumn": 13,
+                  "endLine": 145,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__connect_tcp_02.java"
+                },
+                "region": {
+                  "startLine": 169,
+                  "startColumn": 13,
+                  "endLine": 169,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__connect_tcp_02.java"
+                },
+                "region": {
+                  "startLine": 181,
+                  "startColumn": 13,
+                  "endLine": 181,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__connect_tcp_02.java"
+                },
+                "region": {
+                  "startLine": 205,
+                  "startColumn": 13,
+                  "endLine": 205,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__connect_tcp_02.java"
+                },
+                "region": {
+                  "startLine": 276,
+                  "startColumn": 13,
+                  "endLine": 276,
+                  "endColumn": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__connect_tcp_02.java"
+                },
+                "region": {
+                  "startLine": 311,
+                  "startColumn": 13,
+                  "endLine": 311,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__connect_tcp_02.java"
+                },
+                "region": {
+                  "startLine": 382,
+                  "startColumn": 13,
+                  "endLine": 382,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__connect_tcp_16.java"
+                },
+                "region": {
+                  "startLine": 100,
+                  "startColumn": 13,
+                  "endLine": 100,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__connect_tcp_16.java"
+                },
+                "region": {
+                  "startLine": 120,
+                  "startColumn": 13,
+                  "endLine": 120,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__connect_tcp_16.java"
+                },
+                "region": {
+                  "startLine": 133,
+                  "startColumn": 13,
+                  "endLine": 133,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__connect_tcp_16.java"
+                },
+                "region": {
+                  "startLine": 153,
+                  "startColumn": 13,
+                  "endLine": 153,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__connect_tcp_16.java"
+                },
+                "region": {
+                  "startLine": 226,
+                  "startColumn": 13,
+                  "endLine": 226,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__connect_tcp_16.java"
+                },
+                "region": {
+                  "startLine": 249,
+                  "startColumn": 13,
+                  "endLine": 249,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__console_readLine_02.java"
+                },
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 13,
+                  "endLine": 35,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__console_readLine_02.java"
+                },
+                "region": {
+                  "startLine": 89,
+                  "startColumn": 13,
+                  "endLine": 89,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__console_readLine_02.java"
+                },
+                "region": {
+                  "startLine": 113,
+                  "startColumn": 13,
+                  "endLine": 113,
+                  "endColumn": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__console_readLine_02.java"
+                },
+                "region": {
+                  "startLine": 127,
+                  "startColumn": 13,
+                  "endLine": 127,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__console_readLine_02.java"
+                },
+                "region": {
+                  "startLine": 151,
+                  "startColumn": 13,
+                  "endLine": 151,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__console_readLine_02.java"
+                },
+                "region": {
+                  "startLine": 163,
+                  "startColumn": 13,
+                  "endLine": 163,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__console_readLine_02.java"
+                },
+                "region": {
+                  "startLine": 187,
+                  "startColumn": 13,
+                  "endLine": 187,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__console_readLine_02.java"
+                },
+                "region": {
+                  "startLine": 241,
+                  "startColumn": 13,
+                  "endLine": 241,
+                  "endColumn": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__console_readLine_02.java"
+                },
+                "region": {
+                  "startLine": 276,
+                  "startColumn": 13,
+                  "endLine": 276,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__console_readLine_02.java"
+                },
+                "region": {
+                  "startLine": 330,
+                  "startColumn": 13,
+                  "endLine": 330,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__console_readLine_16.java"
+                },
+                "region": {
+                  "startLine": 82,
+                  "startColumn": 13,
+                  "endLine": 82,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__console_readLine_16.java"
+                },
+                "region": {
+                  "startLine": 102,
+                  "startColumn": 13,
+                  "endLine": 102,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__console_readLine_16.java"
+                },
+                "region": {
+                  "startLine": 115,
+                  "startColumn": 13,
+                  "endLine": 115,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__console_readLine_16.java"
+                },
+                "region": {
+                  "startLine": 135,
+                  "startColumn": 13,
+                  "endLine": 135,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__console_readLine_16.java"
+                },
+                "region": {
+                  "startLine": 191,
+                  "startColumn": 13,
+                  "endLine": 191,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__console_readLine_16.java"
+                },
+                "region": {
+                  "startLine": 214,
+                  "startColumn": 13,
+                  "endLine": 214,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__database_02.java"
+                },
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 13,
+                  "endLine": 36,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__database_02.java"
+                },
+                "region": {
+                  "startLine": 106,
+                  "startColumn": 13,
+                  "endLine": 106,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__database_02.java"
+                },
+                "region": {
+                  "startLine": 130,
+                  "startColumn": 13,
+                  "endLine": 130,
+                  "endColumn": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__database_02.java"
+                },
+                "region": {
+                  "startLine": 144,
+                  "startColumn": 13,
+                  "endLine": 144,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__database_02.java"
+                },
+                "region": {
+                  "startLine": 168,
+                  "startColumn": 13,
+                  "endLine": 168,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__database_02.java"
+                },
+                "region": {
+                  "startLine": 180,
+                  "startColumn": 13,
+                  "endLine": 180,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__database_02.java"
+                },
+                "region": {
+                  "startLine": 204,
+                  "startColumn": 13,
+                  "endLine": 204,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__database_02.java"
+                },
+                "region": {
+                  "startLine": 274,
+                  "startColumn": 13,
+                  "endLine": 274,
+                  "endColumn": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__database_02.java"
+                },
+                "region": {
+                  "startLine": 309,
+                  "startColumn": 13,
+                  "endLine": 309,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__database_02.java"
+                },
+                "region": {
+                  "startLine": 379,
+                  "startColumn": 13,
+                  "endLine": 379,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__database_16.java"
+                },
+                "region": {
+                  "startLine": 99,
+                  "startColumn": 13,
+                  "endLine": 99,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__database_16.java"
+                },
+                "region": {
+                  "startLine": 119,
+                  "startColumn": 13,
+                  "endLine": 119,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__database_16.java"
+                },
+                "region": {
+                  "startLine": 132,
+                  "startColumn": 13,
+                  "endLine": 132,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__database_16.java"
+                },
+                "region": {
+                  "startLine": 152,
+                  "startColumn": 13,
+                  "endLine": 152,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__database_16.java"
+                },
+                "region": {
+                  "startLine": 224,
+                  "startColumn": 13,
+                  "endLine": 224,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__database_16.java"
+                },
+                "region": {
+                  "startLine": 247,
+                  "startColumn": 13,
+                  "endLine": 247,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getCookies_Servlet_02.java"
+                },
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 13,
+                  "endLine": 30,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getCookies_Servlet_02.java"
+                },
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 13,
+                  "endLine": 50,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getCookies_Servlet_02.java"
+                },
+                "region": {
+                  "startLine": 74,
+                  "startColumn": 13,
+                  "endLine": 74,
+                  "endColumn": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getCookies_Servlet_02.java"
+                },
+                "region": {
+                  "startLine": 88,
+                  "startColumn": 13,
+                  "endLine": 88,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getCookies_Servlet_02.java"
+                },
+                "region": {
+                  "startLine": 112,
+                  "startColumn": 13,
+                  "endLine": 112,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getCookies_Servlet_02.java"
+                },
+                "region": {
+                  "startLine": 124,
+                  "startColumn": 13,
+                  "endLine": 124,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getCookies_Servlet_02.java"
+                },
+                "region": {
+                  "startLine": 148,
+                  "startColumn": 13,
+                  "endLine": 148,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getCookies_Servlet_02.java"
+                },
+                "region": {
+                  "startLine": 168,
+                  "startColumn": 13,
+                  "endLine": 168,
+                  "endColumn": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getCookies_Servlet_02.java"
+                },
+                "region": {
+                  "startLine": 203,
+                  "startColumn": 13,
+                  "endLine": 203,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getCookies_Servlet_02.java"
+                },
+                "region": {
+                  "startLine": 223,
+                  "startColumn": 13,
+                  "endLine": 223,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getCookies_Servlet_16.java"
+                },
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 13,
+                  "endLine": 43,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getCookies_Servlet_16.java"
+                },
+                "region": {
+                  "startLine": 63,
+                  "startColumn": 13,
+                  "endLine": 63,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getCookies_Servlet_16.java"
+                },
+                "region": {
+                  "startLine": 76,
+                  "startColumn": 13,
+                  "endLine": 76,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getCookies_Servlet_16.java"
+                },
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 13,
+                  "endLine": 96,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getCookies_Servlet_16.java"
+                },
+                "region": {
+                  "startLine": 118,
+                  "startColumn": 13,
+                  "endLine": 118,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getCookies_Servlet_16.java"
+                },
+                "region": {
+                  "startLine": 141,
+                  "startColumn": 13,
+                  "endLine": 141,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getParameter_Servlet_02.java"
+                },
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 13,
+                  "endLine": 30,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getParameter_Servlet_02.java"
+                },
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 13,
+                  "endLine": 42,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getParameter_Servlet_02.java"
+                },
+                "region": {
+                  "startLine": 66,
+                  "startColumn": 13,
+                  "endLine": 66,
+                  "endColumn": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getParameter_Servlet_02.java"
+                },
+                "region": {
+                  "startLine": 80,
+                  "startColumn": 13,
+                  "endLine": 80,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getParameter_Servlet_02.java"
+                },
+                "region": {
+                  "startLine": 104,
+                  "startColumn": 13,
+                  "endLine": 104,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getParameter_Servlet_02.java"
+                },
+                "region": {
+                  "startLine": 116,
+                  "startColumn": 13,
+                  "endLine": 116,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getParameter_Servlet_02.java"
+                },
+                "region": {
+                  "startLine": 140,
+                  "startColumn": 13,
+                  "endLine": 140,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getParameter_Servlet_02.java"
+                },
+                "region": {
+                  "startLine": 152,
+                  "startColumn": 13,
+                  "endLine": 152,
+                  "endColumn": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getParameter_Servlet_02.java"
+                },
+                "region": {
+                  "startLine": 187,
+                  "startColumn": 13,
+                  "endLine": 187,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getParameter_Servlet_02.java"
+                },
+                "region": {
+                  "startLine": 199,
+                  "startColumn": 13,
+                  "endLine": 199,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getParameter_Servlet_16.java"
+                },
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 13,
+                  "endLine": 35,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getParameter_Servlet_16.java"
+                },
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 13,
+                  "endLine": 55,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getParameter_Servlet_16.java"
+                },
+                "region": {
+                  "startLine": 68,
+                  "startColumn": 13,
+                  "endLine": 68,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getParameter_Servlet_16.java"
+                },
+                "region": {
+                  "startLine": 88,
+                  "startColumn": 13,
+                  "endLine": 88,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getParameter_Servlet_16.java"
+                },
+                "region": {
+                  "startLine": 102,
+                  "startColumn": 13,
+                  "endLine": 102,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getParameter_Servlet_16.java"
+                },
+                "region": {
+                  "startLine": 125,
+                  "startColumn": 13,
+                  "endLine": 125,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getQueryString_Servlet_02.java"
+                },
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 13,
+                  "endLine": 31,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getQueryString_Servlet_02.java"
+                },
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 13,
+                  "endLine": 55,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getQueryString_Servlet_02.java"
+                },
+                "region": {
+                  "startLine": 79,
+                  "startColumn": 13,
+                  "endLine": 79,
+                  "endColumn": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getQueryString_Servlet_02.java"
+                },
+                "region": {
+                  "startLine": 93,
+                  "startColumn": 13,
+                  "endLine": 93,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getQueryString_Servlet_02.java"
+                },
+                "region": {
+                  "startLine": 117,
+                  "startColumn": 13,
+                  "endLine": 117,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getQueryString_Servlet_02.java"
+                },
+                "region": {
+                  "startLine": 129,
+                  "startColumn": 13,
+                  "endLine": 129,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getQueryString_Servlet_02.java"
+                },
+                "region": {
+                  "startLine": 153,
+                  "startColumn": 13,
+                  "endLine": 153,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getQueryString_Servlet_02.java"
+                },
+                "region": {
+                  "startLine": 177,
+                  "startColumn": 13,
+                  "endLine": 177,
+                  "endColumn": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getQueryString_Servlet_02.java"
+                },
+                "region": {
+                  "startLine": 212,
+                  "startColumn": 13,
+                  "endLine": 212,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getQueryString_Servlet_02.java"
+                },
+                "region": {
+                  "startLine": 236,
+                  "startColumn": 13,
+                  "endLine": 236,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getQueryString_Servlet_16.java"
+                },
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 13,
+                  "endLine": 48,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getQueryString_Servlet_16.java"
+                },
+                "region": {
+                  "startLine": 68,
+                  "startColumn": 13,
+                  "endLine": 68,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getQueryString_Servlet_16.java"
+                },
+                "region": {
+                  "startLine": 81,
+                  "startColumn": 13,
+                  "endLine": 81,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getQueryString_Servlet_16.java"
+                },
+                "region": {
+                  "startLine": 101,
+                  "startColumn": 13,
+                  "endLine": 101,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getQueryString_Servlet_16.java"
+                },
+                "region": {
+                  "startLine": 127,
+                  "startColumn": 13,
+                  "endLine": 127,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__getQueryString_Servlet_16.java"
+                },
+                "region": {
+                  "startLine": 150,
+                  "startColumn": 13,
+                  "endLine": 150,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__listen_tcp_02.java"
+                },
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 13,
+                  "endLine": 37,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__listen_tcp_02.java"
+                },
+                "region": {
+                  "startLine": 122,
+                  "startColumn": 13,
+                  "endLine": 122,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__listen_tcp_02.java"
+                },
+                "region": {
+                  "startLine": 146,
+                  "startColumn": 13,
+                  "endLine": 146,
+                  "endColumn": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__listen_tcp_02.java"
+                },
+                "region": {
+                  "startLine": 160,
+                  "startColumn": 13,
+                  "endLine": 160,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__listen_tcp_02.java"
+                },
+                "region": {
+                  "startLine": 184,
+                  "startColumn": 13,
+                  "endLine": 184,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__listen_tcp_02.java"
+                },
+                "region": {
+                  "startLine": 196,
+                  "startColumn": 13,
+                  "endLine": 196,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__listen_tcp_02.java"
+                },
+                "region": {
+                  "startLine": 220,
+                  "startColumn": 13,
+                  "endLine": 220,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__listen_tcp_02.java"
+                },
+                "region": {
+                  "startLine": 305,
+                  "startColumn": 13,
+                  "endLine": 305,
+                  "endColumn": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__listen_tcp_02.java"
+                },
+                "region": {
+                  "startLine": 340,
+                  "startColumn": 13,
+                  "endLine": 340,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__listen_tcp_02.java"
+                },
+                "region": {
+                  "startLine": 425,
+                  "startColumn": 13,
+                  "endLine": 425,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__listen_tcp_16.java"
+                },
+                "region": {
+                  "startLine": 115,
+                  "startColumn": 13,
+                  "endLine": 115,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__listen_tcp_16.java"
+                },
+                "region": {
+                  "startLine": 135,
+                  "startColumn": 13,
+                  "endLine": 135,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__listen_tcp_16.java"
+                },
+                "region": {
+                  "startLine": 148,
+                  "startColumn": 13,
+                  "endLine": 148,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__listen_tcp_16.java"
+                },
+                "region": {
+                  "startLine": 168,
+                  "startColumn": 13,
+                  "endLine": 168,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__listen_tcp_16.java"
+                },
+                "region": {
+                  "startLine": 255,
+                  "startColumn": 13,
+                  "endLine": 255,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE606_Unchecked_Loop_Condition/CWE606_Unchecked_Loop_Condition__listen_tcp_16.java"
+                },
+                "region": {
+                  "startLine": 278,
+                  "startColumn": 13,
+                  "endLine": 278,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "invocations": [
+        {
+          "executionSuccessful": true,
+          "toolConfigurationNotifications": [],
+          "toolExecutionNotifications": []
+        }
+      ]
+    }
+  ]
+}

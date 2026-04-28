@@ -1,0 +1,54 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/main/Schemata/sarif-schema-2.1.0.json",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "PVS-Studio",
+          "informationUri": "https://pvs-studio.com"
+        }
+      },
+      "results": [
+        {
+          "ruleId": "CWE191",
+          "level": "warning",
+          "message": {
+            "text": "False positive in safe file at line 20"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE191/good_0.java"
+                },
+                "region": {
+                  "startLine": 20
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE191",
+          "level": "warning",
+          "message": {
+            "text": "False positive in safe file at line 21"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE191/good_1.java"
+                },
+                "region": {
+                  "startLine": 21
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

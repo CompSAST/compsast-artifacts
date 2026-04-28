@@ -1,0 +1,35 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/main/Schemata/sarif-schema-2.1.0.json",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "CodeQL",
+          "informationUri": "https://codeql.com"
+        }
+      },
+      "results": [
+        {
+          "ruleId": "CWE415",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 10"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE415/test_0.java"
+                },
+                "region": {
+                  "startLine": 10
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "PMD",
+          "version": "6.55.0",
+          "informationUri": "https://pmd.github.io/pmd/",
+          "rules": [
+            {
+              "id": "AvoidUsingHardCodedIP",
+              "shortDescription": {
+                "text": "Do not hard code the IP address "
+              },
+              "fullDescription": {
+                "text": "\nApplication with hard-coded IP addresses can become impossible to deploy in some cases.\nExternalizing IP adresses is preferable.\n        "
+              },
+              "helpUri": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#avoidusinghardcodedip",
+              "help": {
+                "text": "\nApplication with hard-coded IP addresses can become impossible to deploy in some cases.\nExternalizing IP adresses is preferable.\n        "
+              },
+              "properties": {
+                "ruleset": "Best Practices",
+                "priority": 3,
+                "tags": [
+                  "Best Practices"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE499_Sensitive_Data_Serializable/CWE499_Sensitive_Data_Serializable__serializable_01_bad.java"
+                },
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 65,
+                  "endLine": 36,
+                  "endColumn": 79
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE499_Sensitive_Data_Serializable/CWE499_Sensitive_Data_Serializable__serializable_01_good1.java"
+                },
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 65,
+                  "endLine": 37,
+                  "endColumn": 79
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE499_Sensitive_Data_Serializable/CWE499_Sensitive_Data_Serializable__serializable_01_good2.java"
+                },
+                "region": {
+                  "startLine": 40,
+                  "startColumn": 65,
+                  "endLine": 40,
+                  "endColumn": 79
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "invocations": [
+        {
+          "executionSuccessful": true,
+          "toolConfigurationNotifications": [],
+          "toolExecutionNotifications": []
+        }
+      ]
+    }
+  ]
+}

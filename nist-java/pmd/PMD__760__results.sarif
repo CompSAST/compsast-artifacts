@@ -1,0 +1,176 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "PMD",
+          "version": "6.55.0",
+          "informationUri": "https://pmd.github.io/pmd/",
+          "rules": [
+            {
+              "id": "UnconditionalIfStatement",
+              "shortDescription": {
+                "text": "Do not use if statements that are always true or always false"
+              },
+              "fullDescription": {
+                "text": "\nDo not use \"if\" statements whose conditionals are always true or always false.\n        "
+              },
+              "helpUri": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#unconditionalifstatement",
+              "help": {
+                "text": "\nDo not use \"if\" statements whose conditionals are always true or always false.\n        "
+              },
+              "properties": {
+                "ruleset": "Error Prone",
+                "priority": 3,
+                "tags": [
+                  "Error Prone"
+                ]
+              }
+            },
+            {
+              "id": "AvoidBranchingStatementAsLastInLoop",
+              "shortDescription": {
+                "text": "Avoid using a branching statement as the last in a loop."
+              },
+              "fullDescription": {
+                "text": "\nUsing a branching statement as the last part of a loop may be a bug, and/or is confusing.\nEnsure that the usage is not a bug, or consider using another approach.\n        "
+              },
+              "helpUri": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#avoidbranchingstatementaslastinloop",
+              "help": {
+                "text": "\nUsing a branching statement as the last part of a loop may be a bug, and/or is confusing.\nEnsure that the usage is not a bug, or consider using another approach.\n        "
+              },
+              "properties": {
+                "ruleset": "Error Prone",
+                "priority": 2,
+                "tags": [
+                  "Error Prone"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE760_Predictable_Salt_One_Way_Hash/CWE760_Predictable_Salt_One_Way_Hash__basic_02.java"
+                },
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 13,
+                  "endLine": 28,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE760_Predictable_Salt_One_Way_Hash/CWE760_Predictable_Salt_One_Way_Hash__basic_02.java"
+                },
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 13,
+                  "endLine": 42,
+                  "endColumn": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE760_Predictable_Salt_One_Way_Hash/CWE760_Predictable_Salt_One_Way_Hash__basic_02.java"
+                },
+                "region": {
+                  "startLine": 66,
+                  "startColumn": 13,
+                  "endLine": 66,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE760_Predictable_Salt_One_Way_Hash/CWE760_Predictable_Salt_One_Way_Hash__basic_16.java"
+                },
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 13,
+                  "endLine": 36,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE760_Predictable_Salt_One_Way_Hash/CWE760_Predictable_Salt_One_Way_Hash__basic_16.java"
+                },
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 13,
+                  "endLine": 52,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "invocations": [
+        {
+          "executionSuccessful": true,
+          "toolConfigurationNotifications": [],
+          "toolExecutionNotifications": []
+        }
+      ]
+    }
+  ]
+}

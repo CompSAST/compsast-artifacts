@@ -1,0 +1,130 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/main/Schemata/sarif-schema-2.1.0.json",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "Joern",
+          "informationUri": "https://joern.com"
+        }
+      },
+      "results": [
+        {
+          "ruleId": "CWE259",
+          "level": "error",
+          "message": {
+            "text": "Found vulnerability in CWE259_Hard_Coded_Password__passwordAuth_81_bad.java"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/testcases/CWE259_Hard_Coded_password/CWE259_Hard_Coded_Password__passwordAuth_81_bad.java"
+                },
+                "region": {
+                  "startLine": 30
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE259",
+          "level": "error",
+          "message": {
+            "text": "Found vulnerability in CWE259_Hard_Coded_Password__kerberosKey_81_bad.java"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/testcases/CWE259_Hard_Coded_password/CWE259_Hard_Coded_Password__kerberosKey_81_bad.java"
+                },
+                "region": {
+                  "startLine": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE259",
+          "level": "error",
+          "message": {
+            "text": "Found vulnerability in CWE259_Hard_Coded_Password__driverManager_81_bad.java"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/testcases/CWE259_Hard_Coded_password/CWE259_Hard_Coded_Password__driverManager_81_bad.java"
+                },
+                "region": {
+                  "startLine": 56
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE259",
+          "level": "warning",
+          "message": {
+            "text": "Potential issue in safe code: CWE259_Hard_Coded_Password__kerberosKey_81_goodG2B.java"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/testcases/CWE259_Hard_Coded_password/CWE259_Hard_Coded_Password__kerberosKey_81_goodG2B.java"
+                },
+                "region": {
+                  "startLine": 66
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE259",
+          "level": "warning",
+          "message": {
+            "text": "Potential issue in safe code: CWE259_Hard_Coded_Password__passwordAuth_81_goodG2B.java"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/testcases/CWE259_Hard_Coded_password/CWE259_Hard_Coded_Password__passwordAuth_81_goodG2B.java"
+                },
+                "region": {
+                  "startLine": 43
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE259",
+          "level": "warning",
+          "message": {
+            "text": "Potential issue in safe code: CWE259_Hard_Coded_Password__driverManager_81_goodG2B.java"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/testcases/CWE259_Hard_Coded_password/CWE259_Hard_Coded_Password__driverManager_81_goodG2B.java"
+                },
+                "region": {
+                  "startLine": 14
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

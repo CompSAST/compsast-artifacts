@@ -1,0 +1,176 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "PMD",
+          "version": "6.55.0",
+          "informationUri": "https://pmd.github.io/pmd/",
+          "rules": [
+            {
+              "id": "UnconditionalIfStatement",
+              "shortDescription": {
+                "text": "Do not use if statements that are always true or always false"
+              },
+              "fullDescription": {
+                "text": "\nDo not use \"if\" statements whose conditionals are always true or always false.\n        "
+              },
+              "helpUri": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#unconditionalifstatement",
+              "help": {
+                "text": "\nDo not use \"if\" statements whose conditionals are always true or always false.\n        "
+              },
+              "properties": {
+                "ruleset": "Error Prone",
+                "priority": 3,
+                "tags": [
+                  "Error Prone"
+                ]
+              }
+            },
+            {
+              "id": "AvoidBranchingStatementAsLastInLoop",
+              "shortDescription": {
+                "text": "Avoid using a branching statement as the last in a loop."
+              },
+              "fullDescription": {
+                "text": "\nUsing a branching statement as the last part of a loop may be a bug, and/or is confusing.\nEnsure that the usage is not a bug, or consider using another approach.\n        "
+              },
+              "helpUri": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#avoidbranchingstatementaslastinloop",
+              "help": {
+                "text": "\nUsing a branching statement as the last part of a loop may be a bug, and/or is confusing.\nEnsure that the usage is not a bug, or consider using another approach.\n        "
+              },
+              "properties": {
+                "ruleset": "Error Prone",
+                "priority": 2,
+                "tags": [
+                  "Error Prone"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE698_Redirect_Without_Exit/CWE698_Redirect_Without_Exit__Servlet_02.java"
+                },
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 13,
+                  "endLine": 26,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE698_Redirect_Without_Exit/CWE698_Redirect_Without_Exit__Servlet_02.java"
+                },
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 13,
+                  "endLine": 37,
+                  "endColumn": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE698_Redirect_Without_Exit/CWE698_Redirect_Without_Exit__Servlet_02.java"
+                },
+                "region": {
+                  "startLine": 54,
+                  "startColumn": 13,
+                  "endLine": 54,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE698_Redirect_Without_Exit/CWE698_Redirect_Without_Exit__Servlet_16.java"
+                },
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 13,
+                  "endLine": 31,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE698_Redirect_Without_Exit/CWE698_Redirect_Without_Exit__Servlet_16.java"
+                },
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 13,
+                  "endLine": 42,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "invocations": [
+        {
+          "executionSuccessful": true,
+          "toolConfigurationNotifications": [],
+          "toolExecutionNotifications": []
+        }
+      ]
+    }
+  ]
+}

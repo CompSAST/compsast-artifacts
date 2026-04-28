@@ -1,0 +1,3562 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "PMD",
+          "version": "6.55.0",
+          "informationUri": "https://pmd.github.io/pmd/",
+          "rules": [
+            {
+              "id": "AvoidUsingHardCodedIP",
+              "shortDescription": {
+                "text": "Do not hard code the IP address "
+              },
+              "fullDescription": {
+                "text": "\nApplication with hard-coded IP addresses can become impossible to deploy in some cases.\nExternalizing IP adresses is preferable.\n        "
+              },
+              "helpUri": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#avoidusinghardcodedip",
+              "help": {
+                "text": "\nApplication with hard-coded IP addresses can become impossible to deploy in some cases.\nExternalizing IP adresses is preferable.\n        "
+              },
+              "properties": {
+                "ruleset": "Best Practices",
+                "priority": 3,
+                "tags": [
+                  "Best Practices"
+                ]
+              }
+            },
+            {
+              "id": "UnconditionalIfStatement",
+              "shortDescription": {
+                "text": "Do not use if statements that are always true or always false"
+              },
+              "fullDescription": {
+                "text": "\nDo not use \"if\" statements whose conditionals are always true or always false.\n        "
+              },
+              "helpUri": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#unconditionalifstatement",
+              "help": {
+                "text": "\nDo not use \"if\" statements whose conditionals are always true or always false.\n        "
+              },
+              "properties": {
+                "ruleset": "Error Prone",
+                "priority": 3,
+                "tags": [
+                  "Error Prone"
+                ]
+              }
+            },
+            {
+              "id": "AvoidBranchingStatementAsLastInLoop",
+              "shortDescription": {
+                "text": "Avoid using a branching statement as the last in a loop."
+              },
+              "fullDescription": {
+                "text": "\nUsing a branching statement as the last part of a loop may be a bug, and/or is confusing.\nEnsure that the usage is not a bug, or consider using another approach.\n        "
+              },
+              "helpUri": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#avoidbranchingstatementaslastinloop",
+              "help": {
+                "text": "\nUsing a branching statement as the last part of a loop may be a bug, and/or is confusing.\nEnsure that the usage is not a bug, or consider using another approach.\n        "
+              },
+              "properties": {
+                "ruleset": "Error Prone",
+                "priority": 2,
+                "tags": [
+                  "Error Prone"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_01.java"
+                },
+                "region": {
+                  "startLine": 83,
+                  "startColumn": 56,
+                  "endLine": 83,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_01.java"
+                },
+                "region": {
+                  "startLine": 167,
+                  "startColumn": 56,
+                  "endLine": 167,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_01.java"
+                },
+                "region": {
+                  "startLine": 244,
+                  "startColumn": 56,
+                  "endLine": 244,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_02.java"
+                },
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 13,
+                  "endLine": 43,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_02.java"
+                },
+                "region": {
+                  "startLine": 83,
+                  "startColumn": 13,
+                  "endLine": 83,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_02.java"
+                },
+                "region": {
+                  "startLine": 89,
+                  "startColumn": 60,
+                  "endLine": 89,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_02.java"
+                },
+                "region": {
+                  "startLine": 116,
+                  "startColumn": 13,
+                  "endLine": 116,
+                  "endColumn": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_02.java"
+                },
+                "region": {
+                  "startLine": 172,
+                  "startColumn": 13,
+                  "endLine": 172,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_02.java"
+                },
+                "region": {
+                  "startLine": 178,
+                  "startColumn": 60,
+                  "endLine": 178,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_02.java"
+                },
+                "region": {
+                  "startLine": 205,
+                  "startColumn": 13,
+                  "endLine": 205,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_02.java"
+                },
+                "region": {
+                  "startLine": 255,
+                  "startColumn": 13,
+                  "endLine": 255,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_02.java"
+                },
+                "region": {
+                  "startLine": 261,
+                  "startColumn": 60,
+                  "endLine": 261,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_02.java"
+                },
+                "region": {
+                  "startLine": 288,
+                  "startColumn": 13,
+                  "endLine": 288,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_02.java"
+                },
+                "region": {
+                  "startLine": 328,
+                  "startColumn": 13,
+                  "endLine": 328,
+                  "endColumn": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_02.java"
+                },
+                "region": {
+                  "startLine": 351,
+                  "startColumn": 60,
+                  "endLine": 351,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_02.java"
+                },
+                "region": {
+                  "startLine": 379,
+                  "startColumn": 13,
+                  "endLine": 379,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UnconditionalIfStatement",
+          "ruleIndex": 1,
+          "message": {
+            "text": "Do not use if statements that are always true or always false"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_02.java"
+                },
+                "region": {
+                  "startLine": 419,
+                  "startColumn": 13,
+                  "endLine": 419,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_02.java"
+                },
+                "region": {
+                  "startLine": 433,
+                  "startColumn": 60,
+                  "endLine": 433,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_03.java"
+                },
+                "region": {
+                  "startLine": 89,
+                  "startColumn": 60,
+                  "endLine": 89,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_03.java"
+                },
+                "region": {
+                  "startLine": 178,
+                  "startColumn": 60,
+                  "endLine": 178,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_03.java"
+                },
+                "region": {
+                  "startLine": 261,
+                  "startColumn": 60,
+                  "endLine": 261,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_03.java"
+                },
+                "region": {
+                  "startLine": 351,
+                  "startColumn": 60,
+                  "endLine": 351,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_03.java"
+                },
+                "region": {
+                  "startLine": 433,
+                  "startColumn": 60,
+                  "endLine": 433,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_04.java"
+                },
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 60,
+                  "endLine": 96,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_04.java"
+                },
+                "region": {
+                  "startLine": 185,
+                  "startColumn": 60,
+                  "endLine": 185,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_04.java"
+                },
+                "region": {
+                  "startLine": 268,
+                  "startColumn": 60,
+                  "endLine": 268,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_04.java"
+                },
+                "region": {
+                  "startLine": 358,
+                  "startColumn": 60,
+                  "endLine": 358,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_04.java"
+                },
+                "region": {
+                  "startLine": 440,
+                  "startColumn": 60,
+                  "endLine": 440,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_05.java"
+                },
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 60,
+                  "endLine": 96,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_05.java"
+                },
+                "region": {
+                  "startLine": 185,
+                  "startColumn": 60,
+                  "endLine": 185,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_05.java"
+                },
+                "region": {
+                  "startLine": 268,
+                  "startColumn": 60,
+                  "endLine": 268,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_05.java"
+                },
+                "region": {
+                  "startLine": 359,
+                  "startColumn": 60,
+                  "endLine": 359,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_05.java"
+                },
+                "region": {
+                  "startLine": 441,
+                  "startColumn": 60,
+                  "endLine": 441,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_06.java"
+                },
+                "region": {
+                  "startLine": 94,
+                  "startColumn": 60,
+                  "endLine": 94,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_06.java"
+                },
+                "region": {
+                  "startLine": 183,
+                  "startColumn": 60,
+                  "endLine": 183,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_06.java"
+                },
+                "region": {
+                  "startLine": 266,
+                  "startColumn": 60,
+                  "endLine": 266,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_06.java"
+                },
+                "region": {
+                  "startLine": 356,
+                  "startColumn": 60,
+                  "endLine": 356,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_06.java"
+                },
+                "region": {
+                  "startLine": 438,
+                  "startColumn": 60,
+                  "endLine": 438,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_07.java"
+                },
+                "region": {
+                  "startLine": 94,
+                  "startColumn": 60,
+                  "endLine": 94,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_07.java"
+                },
+                "region": {
+                  "startLine": 183,
+                  "startColumn": 60,
+                  "endLine": 183,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_07.java"
+                },
+                "region": {
+                  "startLine": 266,
+                  "startColumn": 60,
+                  "endLine": 266,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_07.java"
+                },
+                "region": {
+                  "startLine": 356,
+                  "startColumn": 60,
+                  "endLine": 356,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_07.java"
+                },
+                "region": {
+                  "startLine": 438,
+                  "startColumn": 60,
+                  "endLine": 438,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_08.java"
+                },
+                "region": {
+                  "startLine": 102,
+                  "startColumn": 60,
+                  "endLine": 102,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_08.java"
+                },
+                "region": {
+                  "startLine": 191,
+                  "startColumn": 60,
+                  "endLine": 191,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_08.java"
+                },
+                "region": {
+                  "startLine": 274,
+                  "startColumn": 60,
+                  "endLine": 274,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_08.java"
+                },
+                "region": {
+                  "startLine": 364,
+                  "startColumn": 60,
+                  "endLine": 364,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_08.java"
+                },
+                "region": {
+                  "startLine": 446,
+                  "startColumn": 60,
+                  "endLine": 446,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_09.java"
+                },
+                "region": {
+                  "startLine": 89,
+                  "startColumn": 60,
+                  "endLine": 89,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_09.java"
+                },
+                "region": {
+                  "startLine": 178,
+                  "startColumn": 60,
+                  "endLine": 178,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_09.java"
+                },
+                "region": {
+                  "startLine": 261,
+                  "startColumn": 60,
+                  "endLine": 261,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_09.java"
+                },
+                "region": {
+                  "startLine": 351,
+                  "startColumn": 60,
+                  "endLine": 351,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_09.java"
+                },
+                "region": {
+                  "startLine": 433,
+                  "startColumn": 60,
+                  "endLine": 433,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_10.java"
+                },
+                "region": {
+                  "startLine": 89,
+                  "startColumn": 60,
+                  "endLine": 89,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_10.java"
+                },
+                "region": {
+                  "startLine": 178,
+                  "startColumn": 60,
+                  "endLine": 178,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_10.java"
+                },
+                "region": {
+                  "startLine": 261,
+                  "startColumn": 60,
+                  "endLine": 261,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_10.java"
+                },
+                "region": {
+                  "startLine": 351,
+                  "startColumn": 60,
+                  "endLine": 351,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_10.java"
+                },
+                "region": {
+                  "startLine": 433,
+                  "startColumn": 60,
+                  "endLine": 433,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_11.java"
+                },
+                "region": {
+                  "startLine": 89,
+                  "startColumn": 60,
+                  "endLine": 89,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_11.java"
+                },
+                "region": {
+                  "startLine": 178,
+                  "startColumn": 60,
+                  "endLine": 178,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_11.java"
+                },
+                "region": {
+                  "startLine": 262,
+                  "startColumn": 60,
+                  "endLine": 262,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_11.java"
+                },
+                "region": {
+                  "startLine": 352,
+                  "startColumn": 60,
+                  "endLine": 352,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_11.java"
+                },
+                "region": {
+                  "startLine": 434,
+                  "startColumn": 60,
+                  "endLine": 434,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_12.java"
+                },
+                "region": {
+                  "startLine": 132,
+                  "startColumn": 60,
+                  "endLine": 132,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_12.java"
+                },
+                "region": {
+                  "startLine": 171,
+                  "startColumn": 60,
+                  "endLine": 171,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_12.java"
+                },
+                "region": {
+                  "startLine": 299,
+                  "startColumn": 60,
+                  "endLine": 299,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_12.java"
+                },
+                "region": {
+                  "startLine": 328,
+                  "startColumn": 60,
+                  "endLine": 328,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_12.java"
+                },
+                "region": {
+                  "startLine": 443,
+                  "startColumn": 60,
+                  "endLine": 443,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_12.java"
+                },
+                "region": {
+                  "startLine": 482,
+                  "startColumn": 60,
+                  "endLine": 482,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_13.java"
+                },
+                "region": {
+                  "startLine": 89,
+                  "startColumn": 60,
+                  "endLine": 89,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_13.java"
+                },
+                "region": {
+                  "startLine": 178,
+                  "startColumn": 60,
+                  "endLine": 178,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_13.java"
+                },
+                "region": {
+                  "startLine": 261,
+                  "startColumn": 60,
+                  "endLine": 261,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_13.java"
+                },
+                "region": {
+                  "startLine": 351,
+                  "startColumn": 60,
+                  "endLine": 351,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_13.java"
+                },
+                "region": {
+                  "startLine": 433,
+                  "startColumn": 60,
+                  "endLine": 433,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_14.java"
+                },
+                "region": {
+                  "startLine": 89,
+                  "startColumn": 60,
+                  "endLine": 89,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_14.java"
+                },
+                "region": {
+                  "startLine": 178,
+                  "startColumn": 60,
+                  "endLine": 178,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_14.java"
+                },
+                "region": {
+                  "startLine": 261,
+                  "startColumn": 60,
+                  "endLine": 261,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_14.java"
+                },
+                "region": {
+                  "startLine": 351,
+                  "startColumn": 60,
+                  "endLine": 351,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_14.java"
+                },
+                "region": {
+                  "startLine": 433,
+                  "startColumn": 60,
+                  "endLine": 433,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_15.java"
+                },
+                "region": {
+                  "startLine": 92,
+                  "startColumn": 60,
+                  "endLine": 92,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_15.java"
+                },
+                "region": {
+                  "startLine": 183,
+                  "startColumn": 60,
+                  "endLine": 183,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_15.java"
+                },
+                "region": {
+                  "startLine": 274,
+                  "startColumn": 60,
+                  "endLine": 274,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_15.java"
+                },
+                "region": {
+                  "startLine": 367,
+                  "startColumn": 56,
+                  "endLine": 367,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_15.java"
+                },
+                "region": {
+                  "startLine": 452,
+                  "startColumn": 56,
+                  "endLine": 452,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 2,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_16.java"
+                },
+                "region": {
+                  "startLine": 76,
+                  "startColumn": 13,
+                  "endLine": 76,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_16.java"
+                },
+                "region": {
+                  "startLine": 85,
+                  "startColumn": 60,
+                  "endLine": 85,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 2,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_16.java"
+                },
+                "region": {
+                  "startLine": 105,
+                  "startColumn": 13,
+                  "endLine": 105,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 2,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_16.java"
+                },
+                "region": {
+                  "startLine": 156,
+                  "startColumn": 13,
+                  "endLine": 156,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_16.java"
+                },
+                "region": {
+                  "startLine": 165,
+                  "startColumn": 60,
+                  "endLine": 165,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 2,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_16.java"
+                },
+                "region": {
+                  "startLine": 185,
+                  "startColumn": 13,
+                  "endLine": 185,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 2,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_16.java"
+                },
+                "region": {
+                  "startLine": 227,
+                  "startColumn": 13,
+                  "endLine": 227,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_16.java"
+                },
+                "region": {
+                  "startLine": 244,
+                  "startColumn": 60,
+                  "endLine": 244,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidBranchingStatementAsLastInLoop",
+          "ruleIndex": 2,
+          "message": {
+            "text": "Avoid using a branching statement as the last in a loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_16.java"
+                },
+                "region": {
+                  "startLine": 264,
+                  "startColumn": 13,
+                  "endLine": 264,
+                  "endColumn": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_17.java"
+                },
+                "region": {
+                  "startLine": 89,
+                  "startColumn": 60,
+                  "endLine": 89,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_17.java"
+                },
+                "region": {
+                  "startLine": 168,
+                  "startColumn": 60,
+                  "endLine": 168,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_17.java"
+                },
+                "region": {
+                  "startLine": 244,
+                  "startColumn": 60,
+                  "endLine": 244,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_21.java"
+                },
+                "region": {
+                  "startLine": 93,
+                  "startColumn": 60,
+                  "endLine": 93,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_21.java"
+                },
+                "region": {
+                  "startLine": 196,
+                  "startColumn": 60,
+                  "endLine": 196,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_21.java"
+                },
+                "region": {
+                  "startLine": 279,
+                  "startColumn": 60,
+                  "endLine": 279,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_21.java"
+                },
+                "region": {
+                  "startLine": 364,
+                  "startColumn": 60,
+                  "endLine": 364,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_22b.java"
+                },
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 60,
+                  "endLine": 43,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_22b.java"
+                },
+                "region": {
+                  "startLine": 99,
+                  "startColumn": 60,
+                  "endLine": 99,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_22b.java"
+                },
+                "region": {
+                  "startLine": 140,
+                  "startColumn": 60,
+                  "endLine": 140,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_22b.java"
+                },
+                "region": {
+                  "startLine": 178,
+                  "startColumn": 60,
+                  "endLine": 178,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_31.java"
+                },
+                "region": {
+                  "startLine": 90,
+                  "startColumn": 60,
+                  "endLine": 90,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_31.java"
+                },
+                "region": {
+                  "startLine": 182,
+                  "startColumn": 60,
+                  "endLine": 182,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_31.java"
+                },
+                "region": {
+                  "startLine": 267,
+                  "startColumn": 60,
+                  "endLine": 267,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_41.java"
+                },
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 56,
+                  "endLine": 48,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_41.java"
+                },
+                "region": {
+                  "startLine": 126,
+                  "startColumn": 56,
+                  "endLine": 126,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_41.java"
+                },
+                "region": {
+                  "startLine": 220,
+                  "startColumn": 56,
+                  "endLine": 220,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_42.java"
+                },
+                "region": {
+                  "startLine": 90,
+                  "startColumn": 56,
+                  "endLine": 90,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_42.java"
+                },
+                "region": {
+                  "startLine": 175,
+                  "startColumn": 56,
+                  "endLine": 175,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_42.java"
+                },
+                "region": {
+                  "startLine": 259,
+                  "startColumn": 56,
+                  "endLine": 259,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_45.java"
+                },
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 56,
+                  "endLine": 53,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_45.java"
+                },
+                "region": {
+                  "startLine": 133,
+                  "startColumn": 56,
+                  "endLine": 133,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_45.java"
+                },
+                "region": {
+                  "startLine": 229,
+                  "startColumn": 56,
+                  "endLine": 229,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_51b.java"
+                },
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 56,
+                  "endLine": 43,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_51b.java"
+                },
+                "region": {
+                  "startLine": 75,
+                  "startColumn": 56,
+                  "endLine": 75,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_51b.java"
+                },
+                "region": {
+                  "startLine": 117,
+                  "startColumn": 56,
+                  "endLine": 117,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_52c.java"
+                },
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 56,
+                  "endLine": 43,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_52c.java"
+                },
+                "region": {
+                  "startLine": 75,
+                  "startColumn": 56,
+                  "endLine": 75,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_52c.java"
+                },
+                "region": {
+                  "startLine": 117,
+                  "startColumn": 56,
+                  "endLine": 117,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_53d.java"
+                },
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 56,
+                  "endLine": 43,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_53d.java"
+                },
+                "region": {
+                  "startLine": 75,
+                  "startColumn": 56,
+                  "endLine": 75,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_53d.java"
+                },
+                "region": {
+                  "startLine": 117,
+                  "startColumn": 56,
+                  "endLine": 117,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_54e.java"
+                },
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 56,
+                  "endLine": 43,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_54e.java"
+                },
+                "region": {
+                  "startLine": 75,
+                  "startColumn": 56,
+                  "endLine": 75,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_54e.java"
+                },
+                "region": {
+                  "startLine": 117,
+                  "startColumn": 56,
+                  "endLine": 117,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_61a.java"
+                },
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 56,
+                  "endLine": 44,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_61a.java"
+                },
+                "region": {
+                  "startLine": 83,
+                  "startColumn": 56,
+                  "endLine": 83,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_61a.java"
+                },
+                "region": {
+                  "startLine": 126,
+                  "startColumn": 56,
+                  "endLine": 126,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_66b.java"
+                },
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 56,
+                  "endLine": 44,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_66b.java"
+                },
+                "region": {
+                  "startLine": 77,
+                  "startColumn": 56,
+                  "endLine": 77,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_66b.java"
+                },
+                "region": {
+                  "startLine": 120,
+                  "startColumn": 56,
+                  "endLine": 120,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_67b.java"
+                },
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 56,
+                  "endLine": 44,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_67b.java"
+                },
+                "region": {
+                  "startLine": 77,
+                  "startColumn": 56,
+                  "endLine": 77,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_67b.java"
+                },
+                "region": {
+                  "startLine": 120,
+                  "startColumn": 56,
+                  "endLine": 120,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_68b.java"
+                },
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 56,
+                  "endLine": 44,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_68b.java"
+                },
+                "region": {
+                  "startLine": 77,
+                  "startColumn": 56,
+                  "endLine": 77,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_68b.java"
+                },
+                "region": {
+                  "startLine": 120,
+                  "startColumn": 56,
+                  "endLine": 120,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_71b.java"
+                },
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 56,
+                  "endLine": 44,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_71b.java"
+                },
+                "region": {
+                  "startLine": 77,
+                  "startColumn": 56,
+                  "endLine": 77,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_71b.java"
+                },
+                "region": {
+                  "startLine": 120,
+                  "startColumn": 56,
+                  "endLine": 120,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_72b.java"
+                },
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 56,
+                  "endLine": 45,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_72b.java"
+                },
+                "region": {
+                  "startLine": 78,
+                  "startColumn": 56,
+                  "endLine": 78,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_72b.java"
+                },
+                "region": {
+                  "startLine": 121,
+                  "startColumn": 56,
+                  "endLine": 121,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_73b.java"
+                },
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 56,
+                  "endLine": 45,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_73b.java"
+                },
+                "region": {
+                  "startLine": 78,
+                  "startColumn": 56,
+                  "endLine": 78,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_73b.java"
+                },
+                "region": {
+                  "startLine": 121,
+                  "startColumn": 56,
+                  "endLine": 121,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_74b.java"
+                },
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 56,
+                  "endLine": 45,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_74b.java"
+                },
+                "region": {
+                  "startLine": 78,
+                  "startColumn": 56,
+                  "endLine": 78,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_74b.java"
+                },
+                "region": {
+                  "startLine": 121,
+                  "startColumn": 56,
+                  "endLine": 121,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_75b.java"
+                },
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 60,
+                  "endLine": 55,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_75b.java"
+                },
+                "region": {
+                  "startLine": 131,
+                  "startColumn": 60,
+                  "endLine": 131,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_75b.java"
+                },
+                "region": {
+                  "startLine": 218,
+                  "startColumn": 60,
+                  "endLine": 218,
+                  "endColumn": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_81_bad.java"
+                },
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 56,
+                  "endLine": 43,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_81_goodB2G.java"
+                },
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 56,
+                  "endLine": 53,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "AvoidUsingHardCodedIP",
+          "ruleIndex": 0,
+          "message": {
+            "text": "Do not hard code the IP address "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/mnt/c/Users/USER/Downloads/2017-10-01-juliet-test-suite-for-java-v1-3/Java/src/testcases/CWE256_Plaintext_Storage_of_Password/CWE256_Plaintext_Storage_of_Password__basic_81_goodG2B.java"
+                },
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 56,
+                  "endLine": 43,
+                  "endColumn": 71
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "invocations": [
+        {
+          "executionSuccessful": true,
+          "toolConfigurationNotifications": [],
+          "toolExecutionNotifications": []
+        }
+      ]
+    }
+  ]
+}
