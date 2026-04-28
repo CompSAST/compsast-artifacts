@@ -1,6 +1,6 @@
 # NIST Juliet Java
 
-## Структура проекта
+## Project Structure
 
 ```text
 nist-java/
@@ -12,19 +12,19 @@ nist-java/
 └── semgrep/
 ```
 
-## Навигация по папкам
+## Folder Navigation
 
-| Папка | Описание |
+| Folder | Description |
 | --- | --- |
-| [codeql](codeql/) | SARIF-результаты анализа CodeQL по CWE-наборам. |
-| [joern](joern/) | SARIF-результаты анализа Joern по CWE-наборам. |
-| [opengrep](opengrep/) | SARIF-результаты анализа OpenGrep по CWE-наборам. |
-| [pmd](pmd/) | SARIF-результаты анализа PMD по CWE-наборам. |
-| [pvs-studio](pvs-studio/) | SARIF-результаты анализа PVS-Studio по CWE-наборам. |
-| [semgrep](semgrep/) | SARIF-результаты анализа Semgrep по CWE-наборам. |
+| [codeql](codeql/) | CodeQL SARIF analysis results by CWE dataset. |
+| [joern](joern/) | Joern SARIF analysis results by CWE dataset. |
+| [opengrep](opengrep/) | OpenGrep SARIF analysis results by CWE dataset. |
+| [pmd](pmd/) | PMD SARIF analysis results by CWE dataset. |
+| [pvs-studio](pvs-studio/) | PVS-Studio SARIF analysis results by CWE dataset. |
+| [semgrep](semgrep/) | Semgrep SARIF analysis results by CWE dataset. |
 
-## Основные файлы
+## Key Files
 
-| Файл | Описание |
+| File | Description |
 | --- | --- |
-| [NIST_Juliet_Java.md](NIST_Juliet_Java.md) | Описание работы с NIST Juliet Java и результатами анализа. |
+| [NIST_Juliet_Java.md](NIST_Juliet_Java.md) | Notes on working with NIST Juliet Java and the analysis results. |

@@ -1,6 +1,6 @@
 # NIST Juliet C#
 
-## Структура проекта
+## Project Structure
 
 ```text
 nist-csharp/
@@ -12,21 +12,21 @@ nist-csharp/
 └── sarif/
 ```
 
-## Навигация по папкам
+## Folder Navigation
 
-| Папка | Описание |
+| Folder | Description |
 | --- | --- |
-| [results](results/) | Итоговые и промежуточные результаты оценки анализаторов. |
-| [results/codeql_eval](results/codeql_eval/) | Результаты оценки CodeQL. |
-| [results/opengrep_eval](results/opengrep_eval/) | Результаты оценки OpenGrep. |
-| [results/pvs-fixed](results/pvs-fixed/) | Исправленные или нормализованные результаты PVS-Studio. |
-| [results/semgrep_eval](results/semgrep_eval/) | Результаты оценки Semgrep. |
-| [sarif](sarif/) | Исходные SARIF-отчеты и связанные файлы для C# benchmark-набора. |
+| [results](results/) | Final and intermediate analyzer evaluation results. |
+| [results/codeql_eval](results/codeql_eval/) | CodeQL evaluation results. |
+| [results/opengrep_eval](results/opengrep_eval/) | OpenGrep evaluation results. |
+| [results/pvs-fixed](results/pvs-fixed/) | Fixed or normalized PVS-Studio results. |
+| [results/semgrep_eval](results/semgrep_eval/) | Semgrep evaluation results. |
+| [sarif](sarif/) | Source SARIF reports and related files for the C# benchmark dataset. |
 
-## Основные файлы
+## Key Files
 
-| Файл | Описание |
+| File | Description |
 | --- | --- |
-| [NIST-Csharp.md](NIST-Csharp.md) | Описание работы с NIST Juliet C# и результатами анализа. |
-| [BENCHMARK_SCORING_RU.md](BENCHMARK_SCORING_RU.md) | Описание скоринга benchmark-результатов на русском языке. |
-| [benchmark_sarif.py](benchmark_sarif.py) | Скрипт для обработки SARIF-результатов benchmark-набора. |
+| [NIST-Csharp.md](NIST-Csharp.md) | Notes on working with NIST Juliet C# and the analysis results. |
+| [BENCHMARK_SCORING_RU.md](BENCHMARK_SCORING_RU.md) | Russian-language description of benchmark result scoring. |
+| [benchmark_sarif.py](benchmark_sarif.py) | Script for processing SARIF results from the benchmark dataset. |

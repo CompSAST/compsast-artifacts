@@ -1,6 +1,6 @@
 # OWASP Benchmark: Python & Java
 
-## Структура проекта
+## Project Structure
 
 ```text
 OWASP-Benchmarks/
@@ -10,18 +10,18 @@ OWASP-Benchmarks/
     └── python_reports/
 ```
 
-## Навигация по папкам
+## Folder Navigation
 
-| Папка | Описание |
+| Folder | Description |
 | --- | --- |
-| [analysing_scripts](analysing_scripts/) | Скрипты для обработки результатов разных SAST-инструментов. |
-| [reports](reports/) | Сводные отчеты по benchmark-наборам. |
-| [reports/java_reports](reports/java_reports/) | Отчеты для Java benchmark-набора. |
-| [reports/python_reports](reports/python_reports/) | Отчеты для Python benchmark-набора. |
+| [analysing_scripts](analysing_scripts/) | Scripts for processing results from different SAST tools. |
+| [reports](reports/) | Summary reports for benchmark datasets. |
+| [reports/java_reports](reports/java_reports/) | Scan results for the Java benchmark dataset. |
+| [reports/python_reports](reports/python_reports/) | Scan results for the Python benchmark dataset. |
 
-## Основные файлы
+## Key Files
 
-| Файл | Описание |
+| File | Description |
 | --- | --- |
-| [OWASP-Benchmarks.md](OWASP-Benchmarks.md) | Документация и заметки по OWASP Benchmarks. |
-| [README.pdf](README.pdf) | PDF-материалы по benchmark-набору. |
+| [OWASP-Benchmarks.md](OWASP-Benchmarks.md) | Documentation and notes for OWASP Benchmarks. |
+| [README.pdf](README.pdf) | PDF materials for the benchmark dataset. |

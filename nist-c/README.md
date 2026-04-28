@@ -1,6 +1,6 @@
 # NIST Juliet C/C++
 
-## Структура проекта
+## Project Structure
 
 ```text
 nist-c/
@@ -11,18 +11,18 @@ nist-c/
 └── semgrep/
 ```
 
-## Навигация по папкам
+## Folder Navigation
 
-| Папка | Описание |
+| Folder | Description |
 | --- | --- |
-| [codeql](codeql/) | SARIF-результаты анализа CodeQL для NIST Juliet C/C++. |
-| [joern](joern/) | SARIF-результаты анализа Joern. |
-| [opengrep](opengrep/) | SARIF-результаты анализа OpenGrep. |
-| [pvs](pvs/) | SARIF-результаты анализа PVS-Studio. |
-| [semgrep](semgrep/) | SARIF-результаты анализа Semgrep. |
+| [codeql](codeql/) | CodeQL SARIF analysis results for NIST Juliet C/C++. |
+| [joern](joern/) | Joern SARIF analysis results. |
+| [opengrep](opengrep/) | OpenGrep SARIF analysis results. |
+| [pvs](pvs/) | PVS-Studio SARIF analysis results. |
+| [semgrep](semgrep/) | Semgrep SARIF analysis results. |
 
-## Основные файлы
+## Key Files
 
-| Файл | Описание |
+| File | Description |
 | --- | --- |
-| [NIST_Juliet_C_CPP.md](NIST_Juliet_C_CPP.md) | Описание работы с NIST Juliet C/C++ и результатами анализа. |
+| [NIST_Juliet_C_CPP.md](NIST_Juliet_C_CPP.md) | Notes on working with NIST Juliet C/C++ and the analysis results. |
