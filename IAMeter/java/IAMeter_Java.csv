@@ -1,22 +1,29 @@
 cwe_id,cwe_name,tp,fp,tn,fn,precision,recall,specificity,f1
 --- semgrep ---,,,,,,,,,
-CWE611,Improper Restriction of XML External Entity Reference (XXE),1,1,0,0,0.5,1,0,0.666667
-CWE79,Improper Neutralization of Input During Web Page Generation (XSS),10,7,1,0,0.588235,1,0.125,0.740741
+CWE611,Improper Restriction of XML External Entity Reference (XXE),1,0,1,0,1,1,1,1
+CWE79,Improper Neutralization of Input During Web Page Generation (XSS),9,7,1,1,0.5625,0.9,0.125,0.692308
+CWE570,Expression is Always False,0,0,0,0,0,0,1,0
 --- opengrep ---,,,,,,,,,
-CWE611,Improper Restriction of XML External Entity Reference (XXE),1,1,0,0,0.5,1,0,0.666667
-CWE79,Improper Neutralization of Input During Web Page Generation (XSS),10,7,1,0,0.588235,1,0.125,0.740741
+CWE611,Improper Restriction of XML External Entity Reference (XXE),1,0,1,0,1,1,1,1
+CWE79,Improper Neutralization of Input During Web Page Generation (XSS),9,7,1,1,0.5625,0.9,0.125,0.692308
+CWE570,Expression is Always False,0,0,0,0,0,0,1,0
 --- codeql ---,,,,,,,,,
 CWE611,Improper Restriction of XML External Entity Reference (XXE),0,0,1,1,0,0,1,0
-CWE79,Improper Neutralization of Input During Web Page Generation (XSS),10,7,1,0,0.588235,1,0.125,0.740741
+CWE79,Improper Neutralization of Input During Web Page Generation (XSS),10,6,2,0,0.625,1,0.25,0.769231
+CWE570,Expression is Always False,0,0,0,0,0,0,1,0
 --- sonar ---,,,,,,,,,
-CWE611,Improper Restriction of XML External Entity Reference (XXE),1,0,1,0,1,1,1,1
-CWE79,Improper Neutralization of Input During Web Page Generation (XSS),2,0,8,8,1,0.2,1,0.333333
+CWE611,Improper Restriction of XML External Entity Reference (XXE),0,0,1,1,0,0,1,0
+CWE79,Improper Neutralization of Input During Web Page Generation (XSS),0,0,8,10,0,0,1,0
+CWE570,Expression is Always False,0,0,0,0,0,0,1,0
 --- pmd ---,,,,,,,,,
-CWE611,Improper Restriction of XML External Entity Reference (XXE),1,0,1,0,1,1,1,1
-CWE79,Improper Neutralization of Input During Web Page Generation (XSS),10,0,8,0,1,1,1,1
+CWE611,Improper Restriction of XML External Entity Reference (XXE),0,0,1,1,0,0,1,0
+CWE79,Improper Neutralization of Input During Web Page Generation (XSS),0,0,8,10,0,0,1,0
+CWE570,Expression is Always False,0,0,0,0,0,0,1,0
 --- pvs ---,,,,,,,,,
 CWE611,Improper Restriction of XML External Entity Reference (XXE),0,0,1,1,0,0,1,0
-CWE79,Improper Neutralization of Input During Web Page Generation (XSS),1,2,6,9,0.333333,0.1,0.75,0.153846
+CWE79,Improper Neutralization of Input During Web Page Generation (XSS),0,0,8,10,0,0,1,0
+CWE570,Expression is Always False,0,2,0,0,0,0,0,0
 --- joern ---,,,,,,,,,
 CWE611,Improper Restriction of XML External Entity Reference (XXE),0,0,1,1,0,0,1,0
 CWE79,Improper Neutralization of Input During Web Page Generation (XSS),0,0,8,10,0,0,1,0
+CWE570,Expression is Always False,0,0,0,0,0,0,1,0
