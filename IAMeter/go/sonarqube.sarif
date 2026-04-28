@@ -1,0 +1,284 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://json.schemastore.org/sarif-2.1.0.json",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "SonarQube",
+          "informationUri": "https://www.sonarsource.com/",
+          "rules": []
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true,
+          "endTimeUtc": "2026-04-27T14:49:50Z"
+        }
+      ],
+      "results": [
+        {
+          "ruleId": "go:S1192",
+          "level": "error",
+          "message": {
+            "text": "Define a constant instead of duplicating this literal \"template.html\" 3 times."
+          },
+          "properties": {
+            "sonar.issueKey": "68d53c2f-9cb1-4e8e-9793-6b957b3a993f",
+            "sonar.severity": "CRITICAL",
+            "sonar.type": "CODE_SMELL",
+            "sonar.status": "OPEN",
+            "sonar.effort": "6min"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "api/03_UnreachableCode.go"
+                },
+                "region": {
+                  "startLine": 11,
+                  "endLine": 11,
+                  "startColumn": 14,
+                  "endColumn": 29
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "go:S1192",
+          "level": "error",
+          "message": {
+            "text": "Define a constant instead of duplicating this literal \"template.html\" 3 times."
+          },
+          "properties": {
+            "sonar.issueKey": "5ba34885-3b40-4fb9-b581-5ad7550910da",
+            "sonar.severity": "CRITICAL",
+            "sonar.type": "CODE_SMELL",
+            "sonar.status": "OPEN",
+            "sonar.effort": "6min"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "api/05_CustomFilteringFunctions.go"
+                },
+                "region": {
+                  "startLine": 13,
+                  "endLine": 13,
+                  "startColumn": 14,
+                  "endColumn": 29
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "go:S1764",
+          "level": "warning",
+          "message": {
+            "text": "Correct one of the identical sub-expressions on both sides of this operator."
+          },
+          "properties": {
+            "sonar.issueKey": "3e398642-5e88-47a8-a64b-0b0eca3e960c",
+            "sonar.severity": "MAJOR",
+            "sonar.type": "BUG",
+            "sonar.status": "OPEN",
+            "sonar.effort": "2min"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "api/06_Base64Semantics.go"
+                },
+                "region": {
+                  "startLine": 15,
+                  "endLine": 15,
+                  "startColumn": 15,
+                  "endColumn": 21
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "go:S1192",
+          "level": "error",
+          "message": {
+            "text": "Define a constant instead of duplicating this literal \"template.html\" 3 times."
+          },
+          "properties": {
+            "sonar.issueKey": "c5b44dd0-62c3-48d7-bf23-c3083cfc3e70",
+            "sonar.severity": "CRITICAL",
+            "sonar.type": "CODE_SMELL",
+            "sonar.status": "OPEN",
+            "sonar.effort": "6min"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "api/07_ForCycle.go"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 20,
+                  "startColumn": 15,
+                  "endColumn": 30
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "go:S1192",
+          "level": "error",
+          "message": {
+            "text": "Define a constant instead of duplicating this literal \"template.html\" 4 times."
+          },
+          "properties": {
+            "sonar.issueKey": "09b3814e-0c33-4729-936b-4deecff4340e",
+            "sonar.severity": "CRITICAL",
+            "sonar.type": "CODE_SMELL",
+            "sonar.status": "OPEN",
+            "sonar.effort": "8min"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "api/08_StringSemantics.go"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 20,
+                  "startColumn": 15,
+                  "endColumn": 30
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "Web:S5254",
+          "level": "warning",
+          "message": {
+            "text": "Add \"lang\" and/or \"xml:lang\" attributes to this \"<html>\" element"
+          },
+          "properties": {
+            "sonar.issueKey": "ab204d8f-5da1-4f1f-ad6c-45cfe33d18ce",
+            "sonar.severity": "MAJOR",
+            "sonar.type": "BUG",
+            "sonar.status": "OPEN",
+            "sonar.effort": "2min"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "templates/index.html"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1,
+                  "startColumn": 1,
+                  "endColumn": 7
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "Web:DoctypePresenceCheck",
+          "level": "warning",
+          "message": {
+            "text": "Insert a <!DOCTYPE> declaration to before this <html> tag."
+          },
+          "properties": {
+            "sonar.issueKey": "ccb9ca41-dc07-4cc2-90ad-bdf3cb1c15b4",
+            "sonar.severity": "MAJOR",
+            "sonar.type": "BUG",
+            "sonar.status": "OPEN",
+            "sonar.effort": "5min"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "templates/index.html"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1,
+                  "startColumn": 1,
+                  "endColumn": 7
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "Web:DoctypePresenceCheck",
+          "level": "warning",
+          "message": {
+            "text": "Insert a <!DOCTYPE> declaration to before this <html> tag."
+          },
+          "properties": {
+            "sonar.issueKey": "8fed3eca-2cbe-4199-9292-ce3d13183066",
+            "sonar.severity": "MAJOR",
+            "sonar.type": "BUG",
+            "sonar.status": "OPEN",
+            "sonar.effort": "5min"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "templates/template.html"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1,
+                  "startColumn": 1,
+                  "endColumn": 7
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "Web:S5254",
+          "level": "warning",
+          "message": {
+            "text": "Add \"lang\" and/or \"xml:lang\" attributes to this \"<html>\" element"
+          },
+          "properties": {
+            "sonar.issueKey": "c821a5e9-4701-420d-9303-9991a32ed459",
+            "sonar.severity": "MAJOR",
+            "sonar.type": "BUG",
+            "sonar.status": "OPEN",
+            "sonar.effort": "2min"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "templates/template.html"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1,
+                  "startColumn": 1,
+                  "endColumn": 7
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

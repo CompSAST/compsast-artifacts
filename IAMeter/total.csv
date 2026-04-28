@@ -9,6 +9,7 @@ IAMeter_Java,joern,0,0,9,11,0,0,1,0,11,9,0
 IAMeter_Go,semgrep,10,7,7,1,0.588235,0.909091,0.583333,0.714286,11,12,0
 IAMeter_Go,opengrep,10,7,7,1,0.588235,0.909091,0.583333,0.714286,11,12,0
 IAMeter_Go,codeql,0,1,12,11,0,0,1,0,11,12,0
+IAMeter_Go,sonar,0,0,12,11,0,0,1,0,11,12,4
 IAMeter_Go,joern,0,0,12,11,0,0,1,0,11,12,0
 IAMeter_PHP,semgrep,0,0,15,14,0,0,1,0,14,15,0
 IAMeter_PHP,opengrep,0,0,15,14,0,0,1,0,14,15,0

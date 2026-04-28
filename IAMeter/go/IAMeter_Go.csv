@@ -11,6 +11,10 @@ CWE570,Expression is Always False,0,0,0,0,0,0,1,0
 CWE611,Improper Restriction of XML External Entity Reference (XXE),0,0,0,0,0,0,1,0
 CWE79,Improper Neutralization of Input During Web Page Generation (XSS),0,0,12,11,0,0,1,0
 CWE570,Expression is Always False,0,1,0,0,0,0,0,0
+--- sonar ---,,,,,,,,,
+CWE611,Improper Restriction of XML External Entity Reference (XXE),0,0,0,0,0,0,1,0
+CWE79,Improper Neutralization of Input During Web Page Generation (XSS),0,0,12,11,0,0,1,0
+CWE570,Expression is Always False,0,0,0,0,0,0,1,0
 --- joern ---,,,,,,,,,
 CWE611,Improper Restriction of XML External Entity Reference (XXE),0,0,0,0,0,0,1,0
 CWE79,Improper Neutralization of Input During Web Page Generation (XSS),0,0,12,11,0,0,1,0
