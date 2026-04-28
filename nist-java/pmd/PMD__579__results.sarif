@@ -1,24 +1,3 @@
-{
-  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
-  "version": "2.1.0",
-  "runs": [
-    {
-      "tool": {
-        "driver": {
-          "name": "PMD",
-          "version": "6.55.0",
-          "informationUri": "https://pmd.github.io/pmd/",
-          "rules": []
-        }
-      },
-      "results": [],
-      "invocations": [
-        {
-          "executionSuccessful": true,
-          "toolConfigurationNotifications": [],
-          "toolExecutionNotifications": []
-        }
-      ]
-    }
-  ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a8548753eb5bd17d79e9f9e7b13bf116ec87ee480df7cbd18f782718f6e3f746
+size 557

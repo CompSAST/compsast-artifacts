@@ -1,35 +1,3 @@
-{
-  "version": "2.1.0",
-  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/main/Schemata/sarif-schema-2.1.0.json",
-  "runs": [
-    {
-      "tool": {
-        "driver": {
-          "name": "PVS-Studio",
-          "informationUri": "https://pvs-studio.com"
-        }
-      },
-      "results": [
-        {
-          "ruleId": "CWE78",
-          "level": "warning",
-          "message": {
-            "text": "False positive in safe file at line 20"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "CWE78/good_0.java"
-                },
-                "region": {
-                  "startLine": 20
-                }
-              }
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:39a3015b0b4328877ad554757603cd7685a188cceb4fbb77b4e3fd59473b130e
+size 804
