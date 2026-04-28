@@ -4,11 +4,11 @@ IAMeter_Java,opengrep,10,7,2,1,0.588235,0.909091,0.222222,0.714286,11,9,0
 IAMeter_Java,codeql,10,6,3,1,0.625,0.909091,0.333333,0.740741,11,9,0
 IAMeter_Java,sonar,0,0,9,11,0,0,1,0,11,9,3
 IAMeter_Java,pmd,0,0,9,11,0,0,1,0,11,9,0
-IAMeter_Java,pvs,0,0,9,11,0,0,1,0,11,9,0
+IAMeter_Java,pvs,0,2,9,11,0,0,1,0,11,9,0
 IAMeter_Java,joern,0,0,9,11,0,0,1,0,11,9,0
 IAMeter_Go,semgrep,10,7,7,1,0.588235,0.909091,0.583333,0.714286,11,12,0
 IAMeter_Go,opengrep,10,7,7,1,0.588235,0.909091,0.583333,0.714286,11,12,0
-IAMeter_Go,codeql,0,0,12,11,0,0,1,0,11,12,0
+IAMeter_Go,codeql,0,1,12,11,0,0,1,0,11,12,0
 IAMeter_Go,joern,0,0,12,11,0,0,1,0,11,12,0
 IAMeter_PHP,semgrep,0,0,15,14,0,0,1,0,14,15,0
 IAMeter_PHP,opengrep,0,0,15,14,0,0,1,0,14,15,0
