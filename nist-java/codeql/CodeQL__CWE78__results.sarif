@@ -1,0 +1,35 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/main/Schemata/sarif-schema-2.1.0.json",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "CodeQL",
+          "informationUri": "https://codeql.com"
+        }
+      },
+      "results": [
+        {
+          "ruleId": "CWE78",
+          "level": "warning",
+          "message": {
+            "text": "False positive in safe file at line 20"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE78/good_0.java"
+                },
+                "region": {
+                  "startLine": 20
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

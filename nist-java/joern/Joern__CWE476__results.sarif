@@ -1,0 +1,187 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/main/Schemata/sarif-schema-2.1.0.json",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "Joern",
+          "informationUri": "https://joern.com"
+        }
+      },
+      "results": [
+        {
+          "ruleId": "CWE476",
+          "level": "error",
+          "message": {
+            "text": "Found vulnerability in CWE476_NULL_Pointer_Dereference__Integer_81_bad.java"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__Integer_81_bad.java"
+                },
+                "region": {
+                  "startLine": 91
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE476",
+          "level": "error",
+          "message": {
+            "text": "Found vulnerability in CWE476_NULL_Pointer_Dereference__String_81_bad.java"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__String_81_bad.java"
+                },
+                "region": {
+                  "startLine": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE476",
+          "level": "error",
+          "message": {
+            "text": "Found vulnerability in CWE476_NULL_Pointer_Dereference__StringBuilder_81_bad.java"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__StringBuilder_81_bad.java"
+                },
+                "region": {
+                  "startLine": 58
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE476",
+          "level": "error",
+          "message": {
+            "text": "Found vulnerability in CWE476_NULL_Pointer_Dereference__int_array_81_bad.java"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__int_array_81_bad.java"
+                },
+                "region": {
+                  "startLine": 65
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE476",
+          "level": "warning",
+          "message": {
+            "text": "Potential issue in safe code: CWE476_NULL_Pointer_Dereference__String_81_goodG2B.java"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__String_81_goodG2B.java"
+                },
+                "region": {
+                  "startLine": 40
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE476",
+          "level": "warning",
+          "message": {
+            "text": "Potential issue in safe code: CWE476_NULL_Pointer_Dereference__String_81_goodB2G.java"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__String_81_goodB2G.java"
+                },
+                "region": {
+                  "startLine": 98
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE476",
+          "level": "warning",
+          "message": {
+            "text": "Potential issue in safe code: CWE476_NULL_Pointer_Dereference__int_array_81_goodB2G.java"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__int_array_81_goodB2G.java"
+                },
+                "region": {
+                  "startLine": 40
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE476",
+          "level": "warning",
+          "message": {
+            "text": "Potential issue in safe code: CWE476_NULL_Pointer_Dereference__int_array_81_goodG2B.java"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__int_array_81_goodG2B.java"
+                },
+                "region": {
+                  "startLine": 91
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE476",
+          "level": "warning",
+          "message": {
+            "text": "Potential issue in safe code: CWE476_NULL_Pointer_Dereference__Integer_81_goodB2G.java"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__Integer_81_goodB2G.java"
+                },
+                "region": {
+                  "startLine": 79
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

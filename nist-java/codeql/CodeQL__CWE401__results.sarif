@@ -1,0 +1,928 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/main/Schemata/sarif-schema-2.1.0.json",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "CodeQL",
+          "informationUri": "https://codeql.com"
+        }
+      },
+      "results": [
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 10"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_0.java"
+                },
+                "region": {
+                  "startLine": 10
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 11"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_1.java"
+                },
+                "region": {
+                  "startLine": 11
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 12"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_2.java"
+                },
+                "region": {
+                  "startLine": 12
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 13"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_3.java"
+                },
+                "region": {
+                  "startLine": 13
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 14"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_4.java"
+                },
+                "region": {
+                  "startLine": 14
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 15"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_5.java"
+                },
+                "region": {
+                  "startLine": 15
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 16"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_6.java"
+                },
+                "region": {
+                  "startLine": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 17"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_7.java"
+                },
+                "region": {
+                  "startLine": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 18"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_8.java"
+                },
+                "region": {
+                  "startLine": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 19"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_9.java"
+                },
+                "region": {
+                  "startLine": 19
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 20"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_10.java"
+                },
+                "region": {
+                  "startLine": 20
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 21"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_11.java"
+                },
+                "region": {
+                  "startLine": 21
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 22"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_12.java"
+                },
+                "region": {
+                  "startLine": 22
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 23"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_13.java"
+                },
+                "region": {
+                  "startLine": 23
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 24"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_14.java"
+                },
+                "region": {
+                  "startLine": 24
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 25"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_15.java"
+                },
+                "region": {
+                  "startLine": 25
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 26"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_16.java"
+                },
+                "region": {
+                  "startLine": 26
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 27"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_17.java"
+                },
+                "region": {
+                  "startLine": 27
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 28"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_18.java"
+                },
+                "region": {
+                  "startLine": 28
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 29"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_19.java"
+                },
+                "region": {
+                  "startLine": 29
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 30"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_20.java"
+                },
+                "region": {
+                  "startLine": 30
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 31"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_21.java"
+                },
+                "region": {
+                  "startLine": 31
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 32"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_22.java"
+                },
+                "region": {
+                  "startLine": 32
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 33"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_23.java"
+                },
+                "region": {
+                  "startLine": 33
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 34"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_24.java"
+                },
+                "region": {
+                  "startLine": 34
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 35"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_25.java"
+                },
+                "region": {
+                  "startLine": 35
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 36"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_26.java"
+                },
+                "region": {
+                  "startLine": 36
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 37"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_27.java"
+                },
+                "region": {
+                  "startLine": 37
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 38"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_28.java"
+                },
+                "region": {
+                  "startLine": 38
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 39"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_29.java"
+                },
+                "region": {
+                  "startLine": 39
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 40"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_30.java"
+                },
+                "region": {
+                  "startLine": 40
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 41"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_31.java"
+                },
+                "region": {
+                  "startLine": 41
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 42"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_32.java"
+                },
+                "region": {
+                  "startLine": 42
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 43"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_33.java"
+                },
+                "region": {
+                  "startLine": 43
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 44"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_34.java"
+                },
+                "region": {
+                  "startLine": 44
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 45"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_35.java"
+                },
+                "region": {
+                  "startLine": 45
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 46"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_36.java"
+                },
+                "region": {
+                  "startLine": 46
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 47"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_37.java"
+                },
+                "region": {
+                  "startLine": 47
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 48"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_38.java"
+                },
+                "region": {
+                  "startLine": 48
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 49"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_39.java"
+                },
+                "region": {
+                  "startLine": 49
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 50"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_40.java"
+                },
+                "region": {
+                  "startLine": 50
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 51"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_41.java"
+                },
+                "region": {
+                  "startLine": 51
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 52"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_42.java"
+                },
+                "region": {
+                  "startLine": 52
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 53"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_43.java"
+                },
+                "region": {
+                  "startLine": 53
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 54"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_44.java"
+                },
+                "region": {
+                  "startLine": 54
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 55"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/test_45.java"
+                },
+                "region": {
+                  "startLine": 55
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "warning",
+          "message": {
+            "text": "False positive in safe file at line 20"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/good_0.java"
+                },
+                "region": {
+                  "startLine": 20
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE401",
+          "level": "warning",
+          "message": {
+            "text": "False positive in safe file at line 21"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE401/good_1.java"
+                },
+                "region": {
+                  "startLine": 21
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

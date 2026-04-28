@@ -1,0 +1,3417 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/main/Schemata/sarif-schema-2.1.0.json",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "Joern",
+          "informationUri": "https://joern.com"
+        }
+      },
+      "results": [
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 10"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_0.java"
+                },
+                "region": {
+                  "startLine": 10
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 11"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_1.java"
+                },
+                "region": {
+                  "startLine": 11
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 12"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_2.java"
+                },
+                "region": {
+                  "startLine": 12
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 13"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_3.java"
+                },
+                "region": {
+                  "startLine": 13
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 14"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_4.java"
+                },
+                "region": {
+                  "startLine": 14
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 15"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_5.java"
+                },
+                "region": {
+                  "startLine": 15
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 16"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_6.java"
+                },
+                "region": {
+                  "startLine": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 17"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_7.java"
+                },
+                "region": {
+                  "startLine": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 18"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_8.java"
+                },
+                "region": {
+                  "startLine": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 19"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_9.java"
+                },
+                "region": {
+                  "startLine": 19
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 20"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_10.java"
+                },
+                "region": {
+                  "startLine": 20
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 21"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_11.java"
+                },
+                "region": {
+                  "startLine": 21
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 22"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_12.java"
+                },
+                "region": {
+                  "startLine": 22
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 23"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_13.java"
+                },
+                "region": {
+                  "startLine": 23
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 24"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_14.java"
+                },
+                "region": {
+                  "startLine": 24
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 25"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_15.java"
+                },
+                "region": {
+                  "startLine": 25
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 26"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_16.java"
+                },
+                "region": {
+                  "startLine": 26
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 27"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_17.java"
+                },
+                "region": {
+                  "startLine": 27
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 28"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_18.java"
+                },
+                "region": {
+                  "startLine": 28
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 29"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_19.java"
+                },
+                "region": {
+                  "startLine": 29
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 30"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_20.java"
+                },
+                "region": {
+                  "startLine": 30
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 31"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_21.java"
+                },
+                "region": {
+                  "startLine": 31
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 32"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_22.java"
+                },
+                "region": {
+                  "startLine": 32
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 33"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_23.java"
+                },
+                "region": {
+                  "startLine": 33
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 34"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_24.java"
+                },
+                "region": {
+                  "startLine": 34
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 35"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_25.java"
+                },
+                "region": {
+                  "startLine": 35
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 36"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_26.java"
+                },
+                "region": {
+                  "startLine": 36
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 37"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_27.java"
+                },
+                "region": {
+                  "startLine": 37
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 38"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_28.java"
+                },
+                "region": {
+                  "startLine": 38
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 39"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_29.java"
+                },
+                "region": {
+                  "startLine": 39
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 40"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_30.java"
+                },
+                "region": {
+                  "startLine": 40
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 41"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_31.java"
+                },
+                "region": {
+                  "startLine": 41
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 42"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_32.java"
+                },
+                "region": {
+                  "startLine": 42
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 43"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_33.java"
+                },
+                "region": {
+                  "startLine": 43
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 44"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_34.java"
+                },
+                "region": {
+                  "startLine": 44
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 45"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_35.java"
+                },
+                "region": {
+                  "startLine": 45
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 46"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_36.java"
+                },
+                "region": {
+                  "startLine": 46
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 47"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_37.java"
+                },
+                "region": {
+                  "startLine": 47
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 48"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_38.java"
+                },
+                "region": {
+                  "startLine": 48
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 49"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_39.java"
+                },
+                "region": {
+                  "startLine": 49
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 50"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_40.java"
+                },
+                "region": {
+                  "startLine": 50
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 51"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_41.java"
+                },
+                "region": {
+                  "startLine": 51
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 52"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_42.java"
+                },
+                "region": {
+                  "startLine": 52
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 53"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_43.java"
+                },
+                "region": {
+                  "startLine": 53
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 54"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_44.java"
+                },
+                "region": {
+                  "startLine": 54
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 55"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_45.java"
+                },
+                "region": {
+                  "startLine": 55
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 56"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_46.java"
+                },
+                "region": {
+                  "startLine": 56
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 57"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_47.java"
+                },
+                "region": {
+                  "startLine": 57
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 58"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_48.java"
+                },
+                "region": {
+                  "startLine": 58
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 59"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_49.java"
+                },
+                "region": {
+                  "startLine": 59
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 60"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_50.java"
+                },
+                "region": {
+                  "startLine": 60
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 61"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_51.java"
+                },
+                "region": {
+                  "startLine": 61
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 62"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_52.java"
+                },
+                "region": {
+                  "startLine": 62
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 63"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_53.java"
+                },
+                "region": {
+                  "startLine": 63
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 64"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_54.java"
+                },
+                "region": {
+                  "startLine": 64
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 65"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_55.java"
+                },
+                "region": {
+                  "startLine": 65
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 66"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_56.java"
+                },
+                "region": {
+                  "startLine": 66
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 67"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_57.java"
+                },
+                "region": {
+                  "startLine": 67
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 68"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_58.java"
+                },
+                "region": {
+                  "startLine": 68
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 69"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_59.java"
+                },
+                "region": {
+                  "startLine": 69
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 70"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_60.java"
+                },
+                "region": {
+                  "startLine": 70
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 71"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_61.java"
+                },
+                "region": {
+                  "startLine": 71
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 72"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_62.java"
+                },
+                "region": {
+                  "startLine": 72
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 73"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_63.java"
+                },
+                "region": {
+                  "startLine": 73
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 74"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_64.java"
+                },
+                "region": {
+                  "startLine": 74
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 75"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_65.java"
+                },
+                "region": {
+                  "startLine": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 76"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_66.java"
+                },
+                "region": {
+                  "startLine": 76
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 77"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_67.java"
+                },
+                "region": {
+                  "startLine": 77
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 78"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_68.java"
+                },
+                "region": {
+                  "startLine": 78
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 79"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_69.java"
+                },
+                "region": {
+                  "startLine": 79
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 80"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_70.java"
+                },
+                "region": {
+                  "startLine": 80
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 81"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_71.java"
+                },
+                "region": {
+                  "startLine": 81
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 82"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_72.java"
+                },
+                "region": {
+                  "startLine": 82
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 83"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_73.java"
+                },
+                "region": {
+                  "startLine": 83
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 84"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_74.java"
+                },
+                "region": {
+                  "startLine": 84
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 85"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_75.java"
+                },
+                "region": {
+                  "startLine": 85
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 86"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_76.java"
+                },
+                "region": {
+                  "startLine": 86
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 87"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_77.java"
+                },
+                "region": {
+                  "startLine": 87
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 88"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_78.java"
+                },
+                "region": {
+                  "startLine": 88
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 89"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_79.java"
+                },
+                "region": {
+                  "startLine": 89
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 90"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_80.java"
+                },
+                "region": {
+                  "startLine": 90
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 91"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_81.java"
+                },
+                "region": {
+                  "startLine": 91
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 92"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_82.java"
+                },
+                "region": {
+                  "startLine": 92
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 93"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_83.java"
+                },
+                "region": {
+                  "startLine": 93
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 94"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_84.java"
+                },
+                "region": {
+                  "startLine": 94
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 95"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_85.java"
+                },
+                "region": {
+                  "startLine": 95
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 96"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_86.java"
+                },
+                "region": {
+                  "startLine": 96
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 97"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_87.java"
+                },
+                "region": {
+                  "startLine": 97
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 98"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_88.java"
+                },
+                "region": {
+                  "startLine": 98
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 99"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_89.java"
+                },
+                "region": {
+                  "startLine": 99
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 100"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_90.java"
+                },
+                "region": {
+                  "startLine": 100
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 101"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_91.java"
+                },
+                "region": {
+                  "startLine": 101
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 102"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_92.java"
+                },
+                "region": {
+                  "startLine": 102
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 103"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_93.java"
+                },
+                "region": {
+                  "startLine": 103
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 104"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_94.java"
+                },
+                "region": {
+                  "startLine": 104
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 105"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_95.java"
+                },
+                "region": {
+                  "startLine": 105
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 106"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_96.java"
+                },
+                "region": {
+                  "startLine": 106
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 107"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_97.java"
+                },
+                "region": {
+                  "startLine": 107
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 108"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_98.java"
+                },
+                "region": {
+                  "startLine": 108
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 109"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_99.java"
+                },
+                "region": {
+                  "startLine": 109
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 110"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_100.java"
+                },
+                "region": {
+                  "startLine": 110
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 111"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_101.java"
+                },
+                "region": {
+                  "startLine": 111
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 112"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_102.java"
+                },
+                "region": {
+                  "startLine": 112
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 113"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_103.java"
+                },
+                "region": {
+                  "startLine": 113
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 114"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_104.java"
+                },
+                "region": {
+                  "startLine": 114
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 115"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_105.java"
+                },
+                "region": {
+                  "startLine": 115
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 116"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_106.java"
+                },
+                "region": {
+                  "startLine": 116
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 117"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_107.java"
+                },
+                "region": {
+                  "startLine": 117
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 118"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_108.java"
+                },
+                "region": {
+                  "startLine": 118
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 119"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_109.java"
+                },
+                "region": {
+                  "startLine": 119
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 120"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_110.java"
+                },
+                "region": {
+                  "startLine": 120
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 121"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_111.java"
+                },
+                "region": {
+                  "startLine": 121
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 122"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_112.java"
+                },
+                "region": {
+                  "startLine": 122
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 123"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_113.java"
+                },
+                "region": {
+                  "startLine": 123
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 124"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_114.java"
+                },
+                "region": {
+                  "startLine": 124
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 125"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_115.java"
+                },
+                "region": {
+                  "startLine": 125
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 126"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_116.java"
+                },
+                "region": {
+                  "startLine": 126
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 127"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_117.java"
+                },
+                "region": {
+                  "startLine": 127
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 128"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_118.java"
+                },
+                "region": {
+                  "startLine": 128
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 129"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_119.java"
+                },
+                "region": {
+                  "startLine": 129
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 130"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_120.java"
+                },
+                "region": {
+                  "startLine": 130
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 131"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_121.java"
+                },
+                "region": {
+                  "startLine": 131
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 132"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_122.java"
+                },
+                "region": {
+                  "startLine": 132
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 133"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_123.java"
+                },
+                "region": {
+                  "startLine": 133
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 134"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_124.java"
+                },
+                "region": {
+                  "startLine": 134
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 135"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_125.java"
+                },
+                "region": {
+                  "startLine": 135
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 136"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_126.java"
+                },
+                "region": {
+                  "startLine": 136
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 137"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_127.java"
+                },
+                "region": {
+                  "startLine": 137
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 138"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_128.java"
+                },
+                "region": {
+                  "startLine": 138
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 139"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_129.java"
+                },
+                "region": {
+                  "startLine": 139
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 140"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_130.java"
+                },
+                "region": {
+                  "startLine": 140
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 141"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_131.java"
+                },
+                "region": {
+                  "startLine": 141
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 142"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_132.java"
+                },
+                "region": {
+                  "startLine": 142
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 143"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_133.java"
+                },
+                "region": {
+                  "startLine": 143
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 144"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_134.java"
+                },
+                "region": {
+                  "startLine": 144
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 145"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_135.java"
+                },
+                "region": {
+                  "startLine": 145
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 146"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_136.java"
+                },
+                "region": {
+                  "startLine": 146
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 147"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_137.java"
+                },
+                "region": {
+                  "startLine": 147
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 148"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_138.java"
+                },
+                "region": {
+                  "startLine": 148
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability found in test file at line 149"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/test_139.java"
+                },
+                "region": {
+                  "startLine": 149
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "warning",
+          "message": {
+            "text": "False positive in safe file at line 20"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/good_0.java"
+                },
+                "region": {
+                  "startLine": 20
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "warning",
+          "message": {
+            "text": "False positive in safe file at line 21"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/good_1.java"
+                },
+                "region": {
+                  "startLine": 21
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "warning",
+          "message": {
+            "text": "False positive in safe file at line 22"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/good_2.java"
+                },
+                "region": {
+                  "startLine": 22
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "warning",
+          "message": {
+            "text": "False positive in safe file at line 23"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/good_3.java"
+                },
+                "region": {
+                  "startLine": 23
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "warning",
+          "message": {
+            "text": "False positive in safe file at line 24"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/good_4.java"
+                },
+                "region": {
+                  "startLine": 24
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "warning",
+          "message": {
+            "text": "False positive in safe file at line 25"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/good_5.java"
+                },
+                "region": {
+                  "startLine": 25
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "warning",
+          "message": {
+            "text": "False positive in safe file at line 26"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/good_6.java"
+                },
+                "region": {
+                  "startLine": 26
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "warning",
+          "message": {
+            "text": "False positive in safe file at line 27"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/good_7.java"
+                },
+                "region": {
+                  "startLine": 27
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "warning",
+          "message": {
+            "text": "False positive in safe file at line 28"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/good_8.java"
+                },
+                "region": {
+                  "startLine": 28
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "warning",
+          "message": {
+            "text": "False positive in safe file at line 29"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/good_9.java"
+                },
+                "region": {
+                  "startLine": 29
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "warning",
+          "message": {
+            "text": "False positive in safe file at line 30"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/good_10.java"
+                },
+                "region": {
+                  "startLine": 30
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "warning",
+          "message": {
+            "text": "False positive in safe file at line 31"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/good_11.java"
+                },
+                "region": {
+                  "startLine": 31
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "warning",
+          "message": {
+            "text": "False positive in safe file at line 32"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/good_12.java"
+                },
+                "region": {
+                  "startLine": 32
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "warning",
+          "message": {
+            "text": "False positive in safe file at line 33"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/good_13.java"
+                },
+                "region": {
+                  "startLine": 33
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "warning",
+          "message": {
+            "text": "False positive in safe file at line 34"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/good_14.java"
+                },
+                "region": {
+                  "startLine": 34
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "warning",
+          "message": {
+            "text": "False positive in safe file at line 35"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/good_15.java"
+                },
+                "region": {
+                  "startLine": 35
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "warning",
+          "message": {
+            "text": "False positive in safe file at line 36"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/good_16.java"
+                },
+                "region": {
+                  "startLine": 36
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "warning",
+          "message": {
+            "text": "False positive in safe file at line 37"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/good_17.java"
+                },
+                "region": {
+                  "startLine": 37
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "warning",
+          "message": {
+            "text": "False positive in safe file at line 38"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/good_18.java"
+                },
+                "region": {
+                  "startLine": 38
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "warning",
+          "message": {
+            "text": "False positive in safe file at line 39"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/good_19.java"
+                },
+                "region": {
+                  "startLine": 39
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "warning",
+          "message": {
+            "text": "False positive in safe file at line 40"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/good_20.java"
+                },
+                "region": {
+                  "startLine": 40
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "warning",
+          "message": {
+            "text": "False positive in safe file at line 41"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/good_21.java"
+                },
+                "region": {
+                  "startLine": 41
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "warning",
+          "message": {
+            "text": "False positive in safe file at line 42"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/good_22.java"
+                },
+                "region": {
+                  "startLine": 42
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "warning",
+          "message": {
+            "text": "False positive in safe file at line 43"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/good_23.java"
+                },
+                "region": {
+                  "startLine": 43
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "warning",
+          "message": {
+            "text": "False positive in safe file at line 44"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/good_24.java"
+                },
+                "region": {
+                  "startLine": 44
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "warning",
+          "message": {
+            "text": "False positive in safe file at line 45"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/good_25.java"
+                },
+                "region": {
+                  "startLine": 45
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "warning",
+          "message": {
+            "text": "False positive in safe file at line 46"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/good_26.java"
+                },
+                "region": {
+                  "startLine": 46
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "warning",
+          "message": {
+            "text": "False positive in safe file at line 47"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/good_27.java"
+                },
+                "region": {
+                  "startLine": 47
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "warning",
+          "message": {
+            "text": "False positive in safe file at line 48"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/good_28.java"
+                },
+                "region": {
+                  "startLine": 48
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "warning",
+          "message": {
+            "text": "False positive in safe file at line 49"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/good_29.java"
+                },
+                "region": {
+                  "startLine": 49
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "warning",
+          "message": {
+            "text": "False positive in safe file at line 50"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/good_30.java"
+                },
+                "region": {
+                  "startLine": 50
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "warning",
+          "message": {
+            "text": "False positive in safe file at line 51"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/good_31.java"
+                },
+                "region": {
+                  "startLine": 51
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "warning",
+          "message": {
+            "text": "False positive in safe file at line 52"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/good_32.java"
+                },
+                "region": {
+                  "startLine": 52
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "warning",
+          "message": {
+            "text": "False positive in safe file at line 53"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/good_33.java"
+                },
+                "region": {
+                  "startLine": 53
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "warning",
+          "message": {
+            "text": "False positive in safe file at line 54"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/good_34.java"
+                },
+                "region": {
+                  "startLine": 54
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "warning",
+          "message": {
+            "text": "False positive in safe file at line 55"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/good_35.java"
+                },
+                "region": {
+                  "startLine": 55
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "warning",
+          "message": {
+            "text": "False positive in safe file at line 56"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/good_36.java"
+                },
+                "region": {
+                  "startLine": 56
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "warning",
+          "message": {
+            "text": "False positive in safe file at line 57"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/good_37.java"
+                },
+                "region": {
+                  "startLine": 57
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CWE79",
+          "level": "warning",
+          "message": {
+            "text": "False positive in safe file at line 58"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CWE79/good_38.java"
+                },
+                "region": {
+                  "startLine": 58
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
