@@ -104,7 +104,7 @@ sonar-scanner \
   -Dsonar.token=<sonar-token>
 ```
 
-После чего, с помощью скрипта `help-tools/sonar_issues_to_sarif.py`, выгрузка issues с сервера SonarQube в `SARIF`. Как работает скрипт: 
+После чего, с помощью скрипта `compsast-artifacts/sonar_issues_to_sarif.py`, выгрузка issues с сервера SonarQube в `SARIF`. Как работает скрипт: 
 - Делает HTTPS-запросы к `/api/issues/search` (с пагинацией, открытые issues, `componentKeys=<projectKey>`).
 - Собирает `runs[0].results` с путями к файлам и диапазонами строк; в `properties` — ключ issue, тип, severity Sonar и т.д. (по возможности из полей API).
 - Токен и URL передаются флагами или через `SONAR_TOKEN`, `SONAR_HOST_URL`, `SONAR_PROJECT_KEY`.
@@ -113,7 +113,7 @@ sonar-scanner \
 
 ```bash
 export SONAR_TOKEN=<sonar-token>
-python3 help-tools/sonar_issues_to_sarif.py \
+python3 compsast-artifacts/sonar_issues_to_sarif.py \
   --host http://localhost:9000 \
   --project-key <project-key> \
   -o sonarqube.sarif
@@ -136,7 +136,7 @@ plog-converter -t sarif -o pvs-iameter.sarif pvs_project_report_per_file.json
 
 ### Joern
 
-Сканирование выполнялось скриптом `help-tools/joern_iameter_all.sh`: он три раза запускает `joern-scan` из корня репозитория — отдельно для *IAMeter_Go*, *IAMeter_Java*, *IAMeter_PHP* (в одном прогоне смешиваются только файлы одного языка). Перед Java-прогоном вызывается `mvn -q compile`. Вывод каждого запуска пишется рядом с проектом в *`IAMeter_*/joern-scan.txt`*; затем выполняется *`joern_scan_txt_to_sarif.py`*, который строит *`IAMeter_*/joern-scan.sarif`*. Языковые ключи задаются переменными **`JOERN_LANG_*`** или по умолчанию (`golang` / `java` / `php`).
+Сканирование выполнялось скриптом `compsast-artifacts/joern_iameter_all.sh`: он три раза запускает `joern-scan` из корня репозитория — отдельно для *IAMeter_Go*, *IAMeter_Java*, *IAMeter_PHP* (в одном прогоне смешиваются только файлы одного языка). Перед Java-прогоном вызывается `mvn -q compile`. Вывод каждого запуска пишется рядом с проектом в *`IAMeter_*/joern-scan.txt`*; затем выполняется *`joern_scan_txt_to_sarif.py`*, который строит *`IAMeter_*/joern-scan.sarif`*. Языковые ключи задаются переменными **`JOERN_LANG_*`** или по умолчанию (`golang` / `java` / `php`).
 
 ## Результаты сканирования
 

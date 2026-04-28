@@ -9,7 +9,7 @@
 #     pass extra flags via PVS_EXTRA_ARGS, e.g. -a "--license-path /path/PVS-Studio.lic")
 #
 # Usage (from repository root):
-#   sh help-tools/pvs_iameter_java_per_file.sh
+#   sh compsast-artifacts/pvs_iameter_java_per_file.sh
 #
 # Outputs:
 #   IAMeter_Java/pvs-by-file/<class>.json   — one report per file
@@ -90,6 +90,6 @@ if [ "$json_n" -eq 0 ]; then
   exit 1
 fi
 
-python3 "$ROOT/help-tools/merge_pvs_json_reports.py" --from-dir "$OUT_DIR" -o "$PROJ/pvs_project_report_per_file.json"
+python3 "$ROOT/compsast-artifacts/merge_pvs_json_reports.py" --from-dir "$OUT_DIR" -o "$PROJ/pvs_project_report_per_file.json"
 echo "Merged -> ${PROJ}/pvs_project_report_per_file.json"
 echo "The scoring script uses this file if it exists; otherwise pvs_project_report.json."

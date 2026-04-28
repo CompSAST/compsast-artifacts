@@ -9,7 +9,7 @@ Typical usage (after scanner finished on the server):
 .. code-block:: bash
 
    export SONAR_TOKEN=...
-   python3 help-tools/sonar_issues_to_sarif.py \\
+   python3 compsast-artifacts/sonar_issues_to_sarif.py \\
      --host http://localhost:9000 \\
      --project-key iameter_go \\
      -o IAMeter_Go/sonarqube.sarif

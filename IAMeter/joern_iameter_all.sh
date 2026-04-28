@@ -6,7 +6,7 @@
 # See languages:  joern-scan --list-languages
 #
 # Usage (from repository root):
-#   sh help-tools/joern_iameter_all.sh
+#   sh compsast-artifacts/joern_iameter_all.sh
 #
 # Outputs (text, Joern "Result: ..." lines) are saved next to each project as joern-scan.txt
 # (stdout/stderr of joern-scan). If python3 is available, also runs joern_scan_txt_to_sarif.py
@@ -42,7 +42,7 @@ run_scan() {
 }
 
 # Language flags: must match `joern-scan --list-languages` on your install (often lower case).
-# Override if needed:  JOERN_LANG_GO=golang  JOERN_LANG_JAVA=java  sh help-tools/...
+# Override if needed:  JOERN_LANG_GO=golang  JOERN_LANG_JAVA=java  sh compsast-artifacts/...
 
 : "${JOERN_LANG_GO:=golang}"
 : "${JOERN_LANG_JAVA:=java}"
@@ -59,6 +59,6 @@ run_scan "IAMeter_PHP" "$ROOT/IAMeter_PHP" --language "$JOERN_LANG_PHP"
 
 echo "Done. Text logs: IAMeter_*/joern-scan.txt" >&2
 if command -v python3 >/dev/null 2>&1; then
-  python3 "$ROOT/help-tools/joern_scan_txt_to_sarif.py" --root "$ROOT" && echo "SARIF: IAMeter_*/joern-scan.sarif" >&2
+  python3 "$ROOT/compsast-artifacts/joern_scan_txt_to_sarif.py" --root "$ROOT" && echo "SARIF: IAMeter_*/joern-scan.sarif" >&2
 fi
 echo "If a language name fails, run:  joern-scan --list-languages" >&2

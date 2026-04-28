@@ -256,7 +256,7 @@ docker run --rm -v "$PWD/src:/src" returntocorp/semgrep semgrep scan --sarif -o 
 
 scanning all the testcases as a one project since Semgrep scanning allows this operation and it is more approximate to the real CI process in production.
 
-After obtainig scanning result in `SARIF` format, the benchmark evaluating script were used [source](https://github.com/CompSAST/help-tools/blob/main/nist-csharp/benchmark_sarif.py):
+After obtainig scanning result in `SARIF` format, the benchmark evaluating script were used [source](https://github.com/CompSAST/compsast-artifacts/blob/main/nist-csharp/benchmark_sarif.py):
 
 ```bash
 python3 benchmark_sarif.py \
@@ -414,6 +414,6 @@ Key observations:
 
 More detailed statistics for each CWE availble at this [google sheet](https://docs.google.com/spreadsheets/d/1immwEj_XTfbIRZCNeEyJnkL1dWe9kQvq9gs83L8VNTI/edit?gid=705027058#gid=705027058)
 
-All artifacts (benchmark scripts .csv outputs, .sarif scan outputs, script source code) can be found here: [repo](https://github.com/CompSAST/help-tools/tree/main/nist-csharp)
+All artifacts (benchmark scripts .csv outputs, .sarif scan outputs, script source code) can be found here: [repo](https://github.com/CompSAST/compsast-artifacts/tree/main/nist-csharp)
 
 Overall, the results show that the tested tools are highly conservative on this benchmark configuration. CodeQL and PVS-Studio provide better precision, but their recall remains low because only a small subset of Juliet CWE classes is matched by the enabled rules and CWE-aware scoring. Semgrep and OpenGrep produce identical results and should be treated as line-aware marker matching baselines rather than strict CWE-aware SAST results.
