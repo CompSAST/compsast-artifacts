@@ -22,8 +22,9 @@ from typing import Any, Dict, List
 SARIF_SCHEMA = "https://json.schemastore.org/sarif-2.1.0.json"
 
 # Last ``path:line:`` in the line (title may contain colons, e.g. CWE-79: ...).
+# File tail: IAMeter + C/C++ Juliet-style paths
 RESULT_RE = re.compile(
-    r"^Result:\s*(?P<score>[\d.]+)\s*:\s*(?P<title>.*?)(?P<path>[\w/.\-]+\.(?:go|java|php)):(?P<line>\d+):(?P<tail>.*)$"
+    r"^Result:\s*(?P<score>[\d.]+)\s*:\s*(?P<title>.*?)(?P<path>[\w/.\-]+\.(?:go|java|php|c|h|cc|cpp|cxx|hpp|hxx)):(?P<line>\d+):(?P<tail>.*)$"
 )
 
 CWE_IN_MSG = re.compile(r"CWE[-\s]?(\d{1,4})", re.IGNORECASE)
