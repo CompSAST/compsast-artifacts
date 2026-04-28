@@ -118,3 +118,11 @@ These scripts:
 5. Compute evaluation metrics
 
 
+## Results :
+Java Benchmark : 
+
+![alt text](image-1.png)
+
+Python Benchmark : 
+
+![alt text](image.png)
