@@ -321,7 +321,7 @@ V632=true
 ; V769 — The pointer in the expression equals nullptr
 V769=true
 ```
-
+PVS-Studio по умолчанию включает все свои диагностики — их более 700. Без конфига он бы выдал тысячи предупреждений по всему Juliet (включая нерелевантные V001–V799), что сделало бы результаты несопоставимыми с другими инструментами. Конфиг нужен, чтобы сфокусироваться только на целевых CWE.
 
 #### 3.4 CodeQL
 
@@ -430,6 +430,13 @@ where TaintTracking::localTaint(source, sink)
 select sink, source, sink,
   "CWE-789: Uncontrolled allocation size from $@", source, "external input"
 ```
+Аргументация написания кастомных запросов:
+
+Стандартный набор запросов CodeQL (cpp-security-and-quality.qls) не покрывает целевые CWE:
+
+CWE-484 — в стандартном наборе нет запроса для fall-through в switch. CodeQL считает это code quality проблемой, а не security vulnerability, и не включает в security-пакет.
+
+CWE-789 — стандартный TaintedAllocationSize.ql существует, но настроен на узкий набор источников. Juliet использует специфичные источники (rand(), fgets(), strtoul()) которые не входят в дефолтную конфигурацию taint-источников.
 
 #### 3.5 Joern 
 
@@ -559,6 +566,7 @@ void CWE484_..._bad() {
 }
 #endif
 ```c
+
 
 #### 4.5 Joern
 
